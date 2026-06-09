@@ -1,3 +1,7 @@
 {
-  "iosPath": "ios"
+  "apps": [
+    {
+      "appId": "2f7ddbcf"
+    }
+  ]
 }
