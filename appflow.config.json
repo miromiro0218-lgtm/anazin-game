@@ -1,7 +1,10 @@
 {
   "apps": [
     {
-      "appId": "2f7ddbcf"
+      "appId": 2f7ddbcf",
+      "root": ".",
+      "webDir": "www",
+      "iosPath": "ios/App"
     }
   ]
 }
