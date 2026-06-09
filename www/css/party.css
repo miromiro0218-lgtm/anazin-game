@@ -1,0 +1,410 @@
+/* =====================
+   共通
+===================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  overflow:hidden;
+  background:#000;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
+}
+
+.screen{
+  position:absolute;
+  left:50%;
+  top:50%;
+
+  width:1980px;
+  height:1080px;
+
+  transform:translate(-50%,-50%);
+
+  overflow:hidden;
+}
+
+/* =====================
+   背景
+===================== */
+
+.bg{
+  position:absolute;
+  inset:0;
+
+  background:
+    radial-gradient(circle at top,#203050,#0b1220 70%);
+}
+
+/* =====================
+   戻る
+===================== */
+
+#back-button{
+  position:absolute;
+
+  left:30px;
+  top:30px;
+
+  width:90px;
+  height:90px;
+
+  border:none;
+  border-radius:50%;
+
+  background:#2d6cff;
+
+  color:white;
+
+  font-size:40px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  z-index:100;
+}
+
+/* =====================
+   タイトル
+===================== */
+
+.party-title{
+  position:absolute;
+
+  top:30px;
+  left:150px;
+
+  color:white;
+
+  font-size:48px;
+  font-weight:bold;
+
+  text-shadow:0 0 15px #4da3ff;
+}
+
+/* =====================
+   編成枠
+===================== */
+
+.party-area{
+  position:absolute;
+
+  top:120px;
+  left:40px;
+
+  width:850px;
+  height:250px;
+
+  display:flex;
+  gap:20px;
+}
+
+.party-slot{
+  flex:1;
+
+  background:
+    rgba(255,255,255,.08);
+
+  border:
+    2px solid rgba(255,255,255,.15);
+
+  border-radius:20px;
+
+  position:relative;
+
+  overflow:hidden;
+}
+
+.party-slot.filled{
+  border-color:#4da3ff;
+  box-shadow:0 0 20px rgba(77,163,255,.5);
+}
+
+.empty-slot{
+  width:100%;
+  height:100%;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  color:#aaa;
+
+  font-size:28px;
+  font-weight:bold;
+}
+
+.slot-img{
+  width:100%;
+  height:160px;
+
+  object-fit:contain;
+}
+
+.slot-info{
+  padding:10px;
+  text-align:center;
+}
+
+.slot-name{
+  color:white;
+  font-size:22px;
+  font-weight:bold;
+}
+
+.slot-rarity{
+  color:#ffd84a;
+  font-size:18px;
+}
+
+.slot-level{
+  color:#4da3ff;
+  font-size:18px;
+}
+
+.remove-slot-button{
+  position:absolute;
+
+  right:8px;
+  top:8px;
+
+  width:35px;
+  height:35px;
+
+  border:none;
+  border-radius:50%;
+
+  background:#ff4d4d;
+
+  color:white;
+
+  cursor:pointer;
+
+  font-size:20px;
+}
+
+/* =====================
+   戦力
+===================== */
+
+.party-power-box{
+  position:absolute;
+
+  top:390px;
+  left:40px;
+
+  width:850px;
+  height:80px;
+
+  border-radius:20px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  color:white;
+
+  font-size:36px;
+  font-weight:bold;
+}
+
+/* =====================
+   ボタン
+===================== */
+
+.party-buttons{
+  position:absolute;
+
+  top:500px;
+  left:40px;
+
+  width:850px;
+
+  display:flex;
+  gap:15px;
+}
+
+.party-buttons button{
+  flex:1;
+
+  height:70px;
+
+  border:none;
+  border-radius:15px;
+
+  cursor:pointer;
+
+  color:white;
+
+  font-size:24px;
+  font-weight:bold;
+}
+
+#auto-party-button{
+  background:
+    linear-gradient(
+      135deg,
+      #00d4ff,
+      #0066ff
+    );
+}
+
+#save-party-button{
+  background:
+    linear-gradient(
+      135deg,
+      #00ff88,
+      #00aa55
+    );
+}
+
+/* =====================
+   検索
+===================== */
+
+.search-area{
+  position:absolute;
+
+  top:600px;
+  left:40px;
+
+  width:850px;
+}
+
+#search-character{
+  width:100%;
+  height:60px;
+
+  border:none;
+  border-radius:15px;
+
+  padding:0 20px;
+
+  font-size:24px;
+}
+
+/* =====================
+   キャラ一覧
+===================== */
+
+.character-list{
+  position:absolute;
+
+  right:30px;
+  top:30px;
+
+  width:980px;
+  height:1020px;
+
+  padding:15px;
+
+  overflow-y:auto;
+
+  border-radius:25px;
+
+  background:
+    rgba(20,30,50,.95);
+
+  border:2px solid #4da3ff;
+
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap:15px;
+}
+
+.party-character-card{
+  height:170px;
+
+  border-radius:18px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  border:
+    1px solid rgba(255,255,255,.15);
+
+  display:flex;
+
+  cursor:pointer;
+
+  transition:.15s;
+}
+
+.party-character-card:hover{
+  transform:scale(1.02);
+}
+
+.party-character-card.selected{
+  border:2px solid #00ff88;
+
+  box-shadow:
+    0 0 15px rgba(0,255,136,.6);
+}
+
+.party-card-img{
+  width:140px;
+  height:170px;
+
+  object-fit:contain;
+}
+
+.party-card-info{
+  flex:1;
+
+  padding:15px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.party-card-name{
+  color:white;
+
+  font-size:24px;
+  font-weight:bold;
+}
+
+.party-card-sub{
+  margin-top:5px;
+
+  color:#ffd84a;
+
+  font-size:18px;
+}
+
+.party-card-power{
+  margin-top:8px;
+
+  color:#4da3ff;
+
+  font-size:20px;
+  font-weight:bold;
+}
+
+/* =====================
+   スクロール
+===================== */
+
+.character-list::-webkit-scrollbar{
+  width:10px;
+}
+
+.character-list::-webkit-scrollbar-thumb{
+  background:#4da3ff;
+  border-radius:20px;
+}
+
+.character-list::-webkit-scrollbar-track{
+  background:
+    rgba(255,255,255,.05);
+}

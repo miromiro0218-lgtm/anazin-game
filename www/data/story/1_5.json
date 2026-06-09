@@ -1,0 +1,419 @@
+
+[
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "朽ちかけたホテルの裏手にある非常階段を駆け下り、三人と西村は荒い息を吐きながら、かつて駐車場だった更地に身を潜めた。黒服たちの足音はまだ背後で響いている。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……とりあえず、ここなら少しは時間が稼げる"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村は額の汗を拭い、三人に視線を向ける。井口は息を整えながら、さっき見た光景を思い返していた。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村が炭酸ジュースを真水に変えた──あれは単なるトリックではない。能力。この世界の“裏側”にある力だった。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "さっきの……本当なんですか？"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "ああ。さっき見せたとおりだ"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "だが、能力ってのは誰でも使えるもんじゃない。才能のあるやつ、あるいは──"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "あるいは？"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……能力を持った人間が死んだとき、そばにいた人間が引き継ぐ。“継承”ってやつだ。血筋で生まれつき持ってる場合もあるがな"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "継承……ってことは、いま能力者が死んだら、誰かにその力が……？"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "ああ。近くの者、もしくはもともと影響を受けた者が優先される"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木は思わず喉を鳴らした。そんな物騒な力が、この街のどこかで受け継がれ続けているのか──。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "しばらく沈黙が落ちた後、西村は軽くため息をついた。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……ところでだ。お前ら、さっき言ってたな。西宮高校で“教師が生徒を撃ち殺した”って"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "満里奈のことです！ 代行で来た新任の女教師が、中川ってやつを……！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "その女教師……名前をもう一度言ってみろ"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "佐藤……佐藤満里奈です"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "その瞬間、西村は息を呑み、視線を外した。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……やっぱりか。嫌な予感がしてた"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "知ってるんですか！？ あの人のこと！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "ああ。だが、今話すには時間がない。黒服はすぐにここまで来る。逃げるなら──"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "そう言いかけたところで、井口はふと西村の腕を見た。袖の下からじわりと血が滲んでいる。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "大丈夫ですか、その傷……"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "かすり傷だ。問題ない。それより──"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "その瞬間、まるで空気を振るわせるような違和感が全員の身体を包んだ。風もないのに空気が揺れる。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "熱のような、冷気のような何かが肌を撫でた。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "え……？"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木が胸を押さえる。西村は目を見開いた。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "この気配は……まさか──！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "次の瞬間、西村の体が震えた。まるで体の奥から何かが引き剥がされるように、苦しそうに顔を歪める。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "西村さん！？"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……どうも、ここで限界みたいだな"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "黒服と戦って……ちょっとやられすぎた。能力者が死ぬと、力は……最も近い者に……"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "そんな……やめてくださいよ！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "泣くなよ"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村は海老原の頭を軽く叩き、井口と明日木の方を見つめた。そして、ゆっくりと手を伸ばす。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "指先が、明日木の胸元に触れ──光が溢れた。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "う……あ……！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "焼け付くような力が血管を通り、心臓に、脳に、指先まで満ちていく。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "これは……！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "“パージ（浄化）”。俺の能力だ"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "近づいた異能を無効化し、触れた物を浄化する……対能力者向けの力だ。お前なら、うまく使える"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "どうして……俺なんかに……！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "理由なんて後だ。生き延びろ……そして──"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "言葉の続きは、聞こえなかった。西村の体から光が抜け落ち、ただの人間に戻ったように崩れ落ちた。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "風が止む。鳥の鳴き声さえしない。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "明日木は震える手で自分の胸元を押さえた。心臓の鼓動が、さっきよりはるかに強い。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……西村さん、俺……必ず……"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "その時、廃ホテルの方角から再び黒服たちの足音が迫ってくる。"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "行くぞ、明日木！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "……ああ！"
+  },
+  {
+    "bg": "images/bg/hotel_backyard.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "三人は、まだ戦うことすら知らない戦いへと走り出した──。"
+  }
+]

@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  overflow:hidden;
+  background:black;
+  font-family:sans-serif;
+}
+
+.screen{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:radial-gradient(circle,#2a0000,#050000 70%);
+}
+
+.defeat-text{
+  font-size:120px;
+  font-weight:bold;
+  color:#ff2b2b;
+  text-shadow:0 0 20px red,0 0 50px #700;
+  animation:defeatAnim 1.5s ease forwards;
+}
+
+@keyframes defeatAnim{
+  0%{ opacity:0; transform:scale(2.5); filter:blur(12px); }
+  100%{ opacity:1; transform:scale(1); filter:blur(0); }
+}
+
+.message{
+  margin-top:30px;
+  color:white;
+  font-size:36px;
+}
+
+.buttons{
+  margin-top:60px;
+  display:flex;
+  gap:40px;
+}
+
+.buttons button{
+  width:240px;
+  height:80px;
+  border:none;
+  border-radius:18px;
+  background:#333;
+  color:white;
+  font-size:32px;
+  font-weight:bold;
+  cursor:pointer;
+}

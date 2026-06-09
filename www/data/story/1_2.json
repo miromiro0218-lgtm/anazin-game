@@ -1,0 +1,162 @@
+[
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "ホームルームが終わり、校門を飛び出した井口と明日木は、とにかく走った。息が切れるほど走り、バスロータリーの屋根の下まで来た。"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "……うそだろ、さっきの"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "中川が……撃たれた……"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口の胸には、まだ銃声が残響のように響いていた。誰かが血を吹いて倒れるのを見るのは、これが人生で初めてだった。"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "？？？",
+    "text": "お、お前らも逃げてきたのか!?"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "振り返ると、同学年の海老原が肩で大きく息をしながら立っていた。別のクラスのはずだが、その顔も真っ青だった。"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "海老原……見たのか？"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "right",
+    "speaker": "海老原",
+    "text": "見たどころじゃないって！ 2年C組にもあの新任が来て……点呼って言って、生徒の名前を呼びながら……いきなり撃ち出したんだよ！"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "right",
+    "speaker": "海老原",
+    "text": "俺、逃げる途中で気づいたんだけど……あの新任、“鶴野先生の名前が出た時だけ一瞬顔がピクって動いた”んだよ"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……鶴野先生、今朝いなかったよな"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "その代わりに、あいつが全クラスに入ってたってことか……？"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……なあ"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "鶴野先生に、何かあったんじゃないか"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "right",
+    "speaker": "海老原",
+    "text": "や、やめろよ……そんな不謹慎な……"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "でも、このまま逃げても……何も変わらない気がする。原因がわからないままじゃ、どこに行っても同じなんじゃないか……？"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……鶴野先生の家に行こう。いなくなった理由が分かれば、この状況の“根っこ”が掴めるかもしれない"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "right",
+    "speaker": "海老原",
+    "text": "え、なんでそうなる!? 普通、家に帰って鍵閉めて震えてるだろ!? 俺、巻き込まれるの……死ぬの嫌なんだけど！"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "怖いのは俺も同じだよ。でも……知らなきゃ、もっと怖いままだ"
+  },
+  {
+    "bg": "images/bg/bus_terminal.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "行こう。ここで立ち止まってても……何も変わらない"
+  },
+  {
+    "bg": "images/bg/residential_street_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "",
+    "speaker": "",
+    "text": "こうして三人は、“学校の異常”の核心へ踏み込むために、鶴野先生の家へ向かって歩き出した。"
+  }
+]

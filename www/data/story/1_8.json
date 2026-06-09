@@ -1,0 +1,275 @@
+
+[
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜の冷たい風が、廃墟となったビルの窓から吹き抜ける。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口、明日木、海老原は地下通路から飛び出したあと、濡れた路地を全力で駆け抜けた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "雨の残る舗道に足音が反響する。振り返っても、満里奈の影はもう見えなかった。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……ふぅ……やっと、追ってくる気配がなくなったか"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は膝をつき、深く息を吸った。胸の奥に宿る鶴野の力が、まだ熱を帯びて疼いている。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "井口……大丈夫か？"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……まだいける。だが、満里奈のルールがまた変わる可能性もある。油断するな"
+  },
+  {
+    "bg": "images/bg/abandoned_building_stairs.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "ここ、ちょっと安全そうか……？"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "崩れかけの建物の影に、三人は身を潜めるように入った。薄暗い光の中、埃と鉄の匂いが鼻をつく。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "建物の中には人の気配はなく、静寂だけが三人を包んでいた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……ここなら、しばらくは安全かもしれないな"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は壁に背を預け、破壊《ブレイク》の力を手のひらで感じる。その重みが胸に刺さった。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "その時、階段の上から軽い足音が響いた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……誰か、いるのか？"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "声を潜めて振り返ると、白衣姿の青年がゆっくりと姿を現した。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "right",
+    "speaker": "？？？",
+    "text": "……君たちか"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "僕は宮舘歌美。西宮高校の周辺で起きている異常を調査している研究者だ"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "研究者……？ 俺たち、さっきの“先生”に追われてて……"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は今までの出来事を簡潔に説明した。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘は静かに頷く。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "なるほど……君たちは、佐藤満里奈の件で巻き込まれたのか"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "満里奈……先生？"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木の顔がわずかに青ざめる。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/utami.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "彼女の能力は非常に危険だ。コピー能力を応用して、ルール支配のような戦術を取ることも確認済みだ"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "やっぱり……あのルール、普通じゃなかったんだ"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "そして、僕が探しているのは、君たちの幼馴染の宇佐美だ"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "その言葉に、三人は一瞬息を呑んだ。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "宇佐美……？ 彼が関係してるのか？"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "満里奈の行動と宇佐美の居場所は関係している。君たちの協力が必要だ"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……わかった。俺たちも協力する"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "満里奈を止めるためにも、宇佐美を見つけるためにも、逃げてばかりじゃいられない"
+  },
+  {
+    "bg": "images/bg/abandoned_building_inside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "よし……行くか。まだ終わってない。満里奈を止めるんだ"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜の廃墟の闇を背に、三人と研究者・宮舘は新たな行動を開始した。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/utami.png",
+    "active": "",
+    "speaker": "",
+    "text": "冷たい風が彼らを撫で、廃墟の奥深くへと足音が吸い込まれていった。"
+  }
+]

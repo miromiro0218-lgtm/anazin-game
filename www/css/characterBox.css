@@ -1,0 +1,378 @@
+body{
+  margin:0;
+  overflow:hidden;
+  background:black;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
+}
+
+/* =======================
+   画面
+======================= */
+
+.screen{
+  width:1980px;
+  height:1080px;
+
+  position:absolute;
+  left:50%;
+  top:50%;
+
+  transform:translate(-50%,-50%);
+  transform-origin:center center;
+
+  overflow:hidden;
+}
+
+.bg{
+  position:absolute;
+  inset:0;
+
+  background:url("../images/bg/school_evening.jpg")
+  center center / cover no-repeat;
+}
+
+/* =======================
+   左メニュー
+======================= */
+
+.side-menu{
+  position:absolute;
+
+  left:40px;
+  top:40px;
+
+  width:320px;
+
+  display:flex;
+  flex-direction:column;
+  gap:55px;
+
+  z-index:20;
+}
+
+.menu-diamond{
+  width:120px;
+  height:120px;
+
+  margin-left:20px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #003cff,
+    #001f9c
+  );
+
+  border:4px solid silver;
+
+  transform:rotate(45deg);
+
+  box-shadow:
+  0 0 10px rgba(0,0,0,.6);
+}
+
+/* =======================
+   フィルター
+======================= */
+
+.filter-btn{
+  width:240px;
+  height:70px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #ffffff,
+    #d7d7d7
+  );
+
+  clip-path:polygon(
+    12% 0,
+    88% 0,
+    100% 50%,
+    88% 100%,
+    12% 100%,
+    0 50%
+  );
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  font-size:32px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:.15s;
+
+  color:#222;
+
+  border:3px solid #8f8f8f;
+}
+
+.filter-btn:hover{
+  transform:translateX(8px);
+}
+
+.filter-btn.active{
+  background:
+  linear-gradient(
+    135deg,
+    #ffe96d,
+    #ffcc00
+  );
+
+  color:black;
+
+  border-color:#ffae00;
+
+  box-shadow:
+  0 0 18px rgba(255,215,0,.8);
+}
+
+/* =======================
+   戻るボタン
+======================= */
+
+.back-button{
+  position:absolute;
+
+  left:40px;
+  bottom:40px;
+
+  width:70px;
+  height:70px;
+
+  border:none;
+  border-radius:50%;
+
+  background:#3478ff;
+
+  color:white;
+  font-size:38px;
+
+  cursor:pointer;
+
+  z-index:30;
+}
+
+.back-button:hover{
+  filter:brightness(1.15);
+}
+
+/* =======================
+   検索バー
+======================= */
+
+.search-bar{
+  position:absolute;
+
+  left:520px;
+  top:40px;
+
+  width:1200px;
+  height:90px;
+
+  background:white;
+
+  border:5px solid #2d6ec9;
+
+  display:flex;
+  align-items:center;
+
+  box-shadow:
+  5px 5px 0 rgba(0,60,180,.7);
+
+  z-index:20;
+}
+
+.search-icon{
+  width:40px;
+  height:40px;
+
+  margin-left:30px;
+
+  border:4px solid #333;
+  border-radius:50%;
+
+  position:relative;
+}
+
+.search-icon::after{
+  content:"";
+
+  position:absolute;
+
+  width:28px;
+  height:4px;
+
+  background:#333;
+
+  right:-20px;
+  bottom:-10px;
+
+  transform:rotate(45deg);
+}
+
+#search{
+  margin-left:50px;
+
+  width:1000px;
+  height:60px;
+
+  border:none;
+  outline:none;
+
+  font-size:34px;
+
+  background:transparent;
+}
+
+/* =======================
+   キャラ一覧
+======================= */
+
+.character-grid{
+  position:absolute;
+
+  left:500px;
+  top:180px;
+
+  width:1350px;
+  height:820px;
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(4,280px);
+
+  justify-content:space-between;
+
+  row-gap:40px;
+
+  overflow-y:auto;
+
+  padding-right:15px;
+
+  z-index:15;
+}
+
+.character-grid::-webkit-scrollbar{
+  width:10px;
+}
+
+.character-grid::-webkit-scrollbar-thumb{
+  background:#2d6ec9;
+  border-radius:10px;
+}
+
+/* =======================
+   キャラカード
+======================= */
+
+.character{
+  width:260px;
+  height:340px;
+
+  position:relative;
+
+  cursor:pointer;
+
+  transition:.15s;
+}
+
+.character:hover{
+  transform:
+  translateY(-8px)
+  scale(1.03);
+}
+
+.card-frame{
+  position:absolute;
+
+  inset:0;
+
+  width:100%;
+  height:100%;
+
+  object-fit:contain;
+
+  z-index:2;
+
+  pointer-events:none;
+}
+
+.char-img{
+  position:absolute;
+
+  left:50%;
+  top:45%;
+
+  transform:
+  translate(-50%,-50%);
+
+  max-width:180px;
+  max-height:220px;
+
+  object-fit:contain;
+
+  z-index:3;
+
+  filter:
+  drop-shadow(
+    0 10px 8px rgba(0,0,0,.5)
+  );
+}
+
+.name{
+  position:absolute;
+
+  bottom:45px;
+
+  width:100%;
+
+  text-align:center;
+
+  color:#111;
+
+  font-size:20px;
+  font-weight:bold;
+
+  z-index:4;
+}
+
+.rarity{
+  position:absolute;
+
+  bottom:15px;
+
+  width:100%;
+
+  text-align:center;
+
+  font-size:22px;
+  font-weight:bold;
+
+  z-index:4;
+}
+
+.rarity.R{
+  color:#4db8ff;
+}
+
+.rarity.SR{
+  color:#b54dff;
+}
+
+.rarity.SSR{
+  color:#ffd700;
+}
+
+.character.selected{
+  filter:
+  brightness(1.15)
+  drop-shadow(
+    0 0 20px cyan
+  );
+}

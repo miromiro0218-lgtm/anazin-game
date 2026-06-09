@@ -1,0 +1,395 @@
+
+[
+  {
+    "bg": "images/bg/underground_corridor.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "黒服たちから辛くも逃れ、三人は旧ホテル北側にある地下連絡通路へと転がり込んだ。"
+  },
+  {
+    "bg": "images/bg/underground_corridor.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "湿った空気と鉄の匂い。錆びた階段を降りきると、薄い明かりが一本だけ灯る小さな地下室があった。"
+  },
+  {
+    "bg": "images/bg/underground_corridor.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……ここ、だよな……？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口が慎重に前へ出て、扉を押し開けた。その奥にいたのは──"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "……来ると思っていたよ、井口、明日木、あっ海老原くんもいたのか？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "つ、鶴野先生……！ 大丈夫でしたか？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木は思わず駆け寄った。あの朝からずっと行方不明だった担任が、まるで何事もなかったように立っている。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "しかしその顔には、以前の穏やかさだけではない、疲れと迷いが刻まれていた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "先生……本当に生きてたんですね！ よかった……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "……ありがとう。でも、時間がない。君たちには話さなければならないことがある"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野は古い椅子に腰掛け、深く息をついた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "まず──佐藤満里奈についてだ"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "三人は静かに耳を傾けた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "昔な……私と満里奈、西村、それにもう一人──宇佐美という子がいた。4人でよく遊んでいて……本当に仲が良かった"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野の視線は遠い記憶へ沈むようだった。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "でも、中学も高校も、みんなバラバラになってね。自然と疎遠になった。誰もが新しい生活を始め……大人になっていくものだと、そう思っていたんだ"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "だけど……"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "ああ。久しぶりに再会したとき、満里奈は“変わって”いた。まるで何かに怯え、何かから逃げているようで……いや──違う。何かに取り憑かれているようだった"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "どうして満里奈先生はあんなことを……？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "それを知るために、私たちは動き始めた。西村と宇佐美も協力してくれた。だが……彼らは能力持ちだったせいで、満里奈の標的になった"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "まさか……だから西村さんは……？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "そうだ。満里奈の背後には、能力者を利用しようとする“組織”がある。黒服の連中はその手先だ"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "満里奈は……おそらく、その組織にとらわれている"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野の声は震えていた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "本当の彼女はあんな人じゃない……私はまだ、そう信じたいんだ"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "先生……能力って、持ってるんですか？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野は無言で、机の上に置いてあった古びたナイフを手に取った。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "見ていなさい"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "彼は軽く拳を握り、その柄に触れるようにコツンと殴った。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "瞬間、ナイフの金属が粒子状にほどけた。光の砂が舞うように空気へ溶け、輪郭ごと消えていく。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "な、なんだよ、これ……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "これが私の能力《破壊（ブレイク）》だ"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "拳で触れた対象を、量子レベルで分解し消滅させる。攻撃力だけなら……西村よりも私のほうが上だろう"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "その声には悲しさが滲んでいた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "本当は……こんな力、使いたくなかった。でも、満里奈があんなふうになってしまった今、私にはこれしかない"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野は机の引き出しから、一枚の紙を取り出した。黒いインクが滲んだメモだった。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "これは宇佐美が残したメモだ。……彼も行方不明になった"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "これなんて書いてあるのかわかりませんね"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "そうだな。だが何かが満里奈を変えたのは確かだ。そして、その正体を知るには……もっと深く潜らなければならない"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "地下の冷気が、三人の背筋を冷たく撫でた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "明日木。君は西村の能力《パージ》を継いだ。能力者同士の戦いになるなら──その力は必ず役に立つ。私ならパージとは戦いたくないね"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木は拳を握った。胸の奥に、西村の熱がまだ残っている気がした。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……俺、逃げません。満里奈先生が間違っているなら止めるし……本当は助けたいです"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "俺も行く。先生が信じてきたものを……俺たちも信じます"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "お、俺だって帰りたいよ！ 帰りたいけど！ ……でもここで帰ったら夢見が悪いだろ……多分"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野はふっと微笑した。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "……ありがとう。では行こう。宇佐美の失踪と満里奈の真実を確かめに"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "その瞬間、地下室の奥で『ギギィ……』と金属の軋む音がした。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "誰かが……扉を開けようとしている。"
+  }
+]

@@ -1,0 +1,555 @@
+
+[
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜のビル街。ひとつだけ明かりのついていない路地に、前田と金田が立っていた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "……マジで来るんすかね、中川ってやつ"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "来る。満里奈に操られてるならなおさら……“俺たちを始末する”って判断を押し付けられてるはずだ"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "なんか……イヤっすね。他人の意思で殺し合いって……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "おまえがそういう事言うとは思わなかったな"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "そのとき――空気がひりついた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "暗闇の奥から、ひとりの男が歩いてくる。中川だった。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "まるで生気を失ったような顔。だがその瞳だけは、殺意だけを保存した機械のように濁っていた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "ターゲット……確認……前田スティールハント、金田テレポート……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "やべえ……マジで操られてる……。こんなの人間じゃねぇっすよ"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川の額に青い紋章のような光が浮かぶ。――ジャッジメント発動。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限：逃走不能"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田と金田の足元が光り、二人は動けなくなった。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "前田さん！？ 俺……瞬間移動できねぇ！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "チッ……“制限”をかけられた……。解除できるまで動けん！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限破棄まで……あと1ポイント"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田は冷や汗を垂らした。あと二つ制限をかけられたら、自分たちは終わる。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "中川の姿が消えた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "",
+    "active": "left",
+    "speaker": "金田",
+    "text": "え――？"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "次の瞬間、金田の頬に拳が叩き込まれた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "ぐはっ！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "くそっ……こいつ……速すぎる……！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限：反撃不能"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "……うそ……反撃できねぇって……！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川が手を掲げる。これ以上制限をかけられれば、二人とも危ない。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限：息――"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "させるかボケェェェ！！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田が手に力を込める。地面に落ちていた金田のスマホが、前田の手元へ飛んだ。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……？ 制限発動……エラー……？"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "“見えたものを奪う”……スティールハントはアイテムだけじゃない"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "おまえが“制限対象を固定するための視認ポイント”にしてるもの……奪ってやった！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川の体が一瞬ふらつく。ジャッジメントの発動が乱れた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "前田さん、動けるようになったっす！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "行くぞ金田！ 一気に墜とす！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田が中川の背後に瞬間移動する。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "悪いっすけど……借り受けます！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "今だ金田ァ！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田が中川の腕に触れた。次の瞬間、中川は強制的に前田の目の前へワープさせられた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田の拳が中川に直撃する。だが、中川は倒れない。操られているせいか、痛みを感じていないようだった。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限：――"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "ああああ言わせねぇよ！！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田が中川の腕時計を奪う。ジャッジメントの紋章が一瞬乱れ、発動が止まった。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田が追撃し、横蹴りで中川を吹き飛ばす。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "中川は壁に叩きつけられた。しかし、すぐに立ち上がる。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……対象……殺害……最優先……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "満里奈……おまえどれだけこいつを……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限：脱出不能"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "やべえ！ また制限だ！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "中川の体が青白く光る。最悪の制限が発動しようとしていた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "最終制限……停止"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "金田！ 最後に一発……ぶちかますぞ！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "了解っす！！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田が中川の真正面にテレポートし、前田が背後から飛び込む。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "二人の攻撃が同時に中川へ命中し、中川の身体はそのまま地面に倒れた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田と金田も膝から崩れ落ちる。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "……はぁ……はぁ……これ……相打ちってレベルじゃ……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "マジで死ぬかと思ったっす……！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "中川の体は動かない。青白い紋章が、少しずつ消えていく。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……う……ぁ……？"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "しばらくして、中川の目がゆっくりと開いた。その瞳にはもう濁りはなく、涙が滲んでいた。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……俺……また……みんなを……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "金田",
+    "text": "よかったっす……生きてた……！"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "やっと……戻ってきたな、お前"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……すまない……。全部……全部、俺のせいだ……"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "責めるな。全部満里奈の仕業だ。おまえは被害者だ"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "中川は目を閉じた。その瞳には、もう誰かの判断は宿っていなかった。"
+  },
+  {
+    "bg": "images/bg/city_alley_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "――中川、復活。"
+  },
+  {
+    "bg": "images/bg/dark_alley.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "しかしその裏で、満里奈はすでに次の“駒”を動かし始めていた。"
+  }
+]

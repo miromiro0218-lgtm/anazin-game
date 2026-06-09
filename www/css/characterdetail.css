@@ -1,0 +1,431 @@
+/* =====================
+   共通
+===================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  overflow:hidden;
+  background:#000;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
+}
+
+.screen{
+  position:absolute;
+  left:50%;
+  top:50%;
+
+  width:1980px;
+  height:1080px;
+
+  transform:translate(-50%,-50%);
+  overflow:hidden;
+}
+
+/* =====================
+   背景
+===================== */
+
+.bg{
+  position:absolute;
+  inset:0;
+
+  background:
+    radial-gradient(circle at top,#203050,#0b1220 65%);
+}
+
+/* =====================
+   戻るボタン
+===================== */
+
+.back-button{
+  position:absolute;
+
+  left:30px;
+  top:30px;
+
+  width:90px;
+  height:90px;
+
+  border:none;
+  border-radius:50%;
+
+  background:#2d6cff;
+  color:white;
+
+  font-size:40px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  z-index:100;
+}
+
+/* =====================
+   キャラ画像
+===================== */
+
+.character-image{
+  position:absolute;
+
+  left:50px;
+  bottom:0;
+
+  width:700px;
+  height:980px;
+
+  object-fit:contain;
+
+  z-index:1;
+}
+
+/* =====================
+   レベルアップ
+===================== */
+
+.level-button{
+  position:absolute;
+
+  left:190px;
+  bottom:40px;
+
+  width:340px;
+  height:85px;
+
+  border:none;
+  border-radius:18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #00d4ff,
+      #0066ff
+    );
+
+  color:white;
+
+  font-size:32px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  box-shadow:
+    0 0 25px rgba(0,150,255,.8);
+
+  transition:.15s;
+
+  z-index:50;
+}
+
+.level-button:hover{
+  transform:scale(1.05);
+}
+
+/* =====================
+   詳細パネル
+===================== */
+
+.detail-panel{
+  position:absolute;
+
+  right:30px;
+  top:25px;
+
+  width:1150px;
+  height:1020px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(25,35,60,.98),
+      rgba(10,15,25,.98)
+    );
+
+  border:3px solid #4da3ff;
+
+  border-radius:30px;
+
+  box-shadow:
+    0 0 40px rgba(77,163,255,.5);
+
+  color:white;
+
+  padding:35px;
+
+  overflow-y:auto;
+
+  z-index:5;
+}
+
+/* =====================
+   レアリティ
+===================== */
+
+.rarity{
+  font-size:30px;
+  font-weight:bold;
+
+  color:#ffd84a;
+}
+
+/* =====================
+   名前
+===================== */
+
+.character-name{
+  font-size:60px;
+  font-weight:bold;
+
+  color:white;
+
+  text-shadow:
+    0 0 15px #4da3ff;
+
+  margin-top:8px;
+}
+
+/* =====================
+   ロール
+===================== */
+
+.role{
+  margin-top:8px;
+
+  font-size:26px;
+
+  color:#cfd8ff;
+}
+
+/* =====================
+   レベル
+===================== */
+
+.level-area{
+  margin-top:20px;
+  margin-bottom:25px;
+
+  display:flex;
+  align-items:center;
+
+  gap:20px;
+}
+
+.character-level{
+  width:150px;
+  height:65px;
+
+  border-radius:15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffe066,
+      #ffb700
+    );
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  color:#222;
+
+  font-size:32px;
+  font-weight:bold;
+
+  box-shadow:
+    0 0 20px gold;
+}
+
+.exp-area{
+  flex:1;
+}
+
+.exp-bar{
+  width:100%;
+  height:28px;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+  border:2px solid #4da3ff;
+
+  background:#111;
+}
+
+.exp-fill{
+  width:0%;
+  height:100%;
+
+  background:
+    linear-gradient(
+      90deg,
+      #00ff88,
+      #00a8ff
+    );
+
+  transition:.3s;
+}
+
+.character-exp{
+  margin-top:6px;
+
+  text-align:right;
+
+  font-size:20px;
+  font-weight:bold;
+
+  color:#d9e8ff;
+}
+
+/* =====================
+   属性
+===================== */
+
+.element-circle{
+  width:80px;
+  height:80px;
+
+  border-radius:50%;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:24px;
+  font-weight:bold;
+
+  background:#444;
+}
+
+/* =====================
+   区切り
+===================== */
+
+.line{
+  width:100%;
+  height:2px;
+
+  background:
+    rgba(255,255,255,.15);
+
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+/* =====================
+   見出し
+===================== */
+
+h2{
+  margin-top:25px;
+  margin-bottom:15px;
+
+  color:#59b0ff;
+
+  font-size:34px;
+}
+
+/* =====================
+   ステータス
+===================== */
+
+.stats-grid{
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap:15px;
+}
+
+.stats-grid div{
+  background:
+    rgba(255,255,255,.05);
+
+  border:
+    1px solid rgba(255,255,255,.15);
+
+  border-radius:15px;
+
+  padding:15px;
+
+  font-size:28px;
+  font-weight:bold;
+}
+
+/* =====================
+   コマンド
+===================== */
+
+.detail-list{
+  display:flex;
+  flex-direction:column;
+
+  gap:12px;
+}
+
+.detail-card{
+  background:
+    rgba(255,255,255,.05);
+
+  border:
+    1px solid rgba(255,255,255,.15);
+
+  border-radius:15px;
+
+  padding:15px;
+}
+
+.detail-title{
+  color:#59b0ff;
+
+  font-size:24px;
+  font-weight:bold;
+
+  margin-bottom:8px;
+}
+
+/* =====================
+   未解放
+===================== */
+
+.detail-card.locked{
+  opacity:.5;
+  filter:grayscale(1);
+}
+
+.lock-label{
+  margin-left:10px;
+
+  background:#333;
+
+  color:white;
+
+  padding:4px 10px;
+
+  border-radius:12px;
+
+  font-size:15px;
+}
+
+/* =====================
+   スクロールバー
+===================== */
+
+.detail-panel::-webkit-scrollbar{
+  width:10px;
+}
+
+.detail-panel::-webkit-scrollbar-thumb{
+  background:#4da3ff;
+  border-radius:20px;
+}
+
+.detail-panel::-webkit-scrollbar-track{
+  background:rgba(255,255,255,.05);
+}

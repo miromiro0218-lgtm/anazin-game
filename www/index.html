@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ホーム</title>
+<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+<div class="screen">
+
+  <div class="bg"></div>
+
+  <div class="top-ui">
+
+    <div class="player-panel">
+      <div class="player-rank" id="player-rank">1</div>
+      <div class="player-name" id="player-name">プレイヤー</div>
+    </div>
+
+    <div class="currency-panel gold">
+      <span>GOLD</span>
+      <b id="gold-count">0</b>
+    </div>
+
+    <div class="currency-panel stone">
+      <span>STONE</span>
+      <b id="stone-count">0</b>
+    </div>
+
+    <div class="profile-icon"></div>
+
+  </div>
+
+  <div class="right-menu">
+    <button class="gift-button">🎁</button>
+    <button class="mission-button">◆</button>
+  </div>
+
+  <img
+    id="home-character"
+    class="home-character"
+    src="images/characters/noa.png"
+    alt="ホームキャラ"
+  >
+
+  <div class="speech-box">
+    <div id="home-message">
+      今日も準備していこう！
+    </div>
+  </div>
+
+  <div class="bottom-menu">
+
+    <button class="home-menu-btn" onclick="location.href='story_select.html'">
+      ストーリー
+    </button>
+
+    <button class="home-menu-btn" onclick="location.href='character_box.html'">
+      キャラ
+    </button>
+
+    <button class="home-menu-btn" onclick="openParty()">
+      編成
+    </button>
+
+    <button class="home-menu-btn" onclick="location.href='gacha.html'">
+      ガチャ
+    </button>
+
+    <button class="home-menu-btn" onclick="location.href='shop.html'">
+      ショップ
+    </button>
+
+  </div>
+
+</div>
+
+<script src="data/playerData.js"></script>
+<script src="js/home.js"></script>
+
+</body>
+</html>

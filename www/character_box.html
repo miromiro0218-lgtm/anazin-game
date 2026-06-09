@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Character Box</title>
+
+<link rel="stylesheet" href="css/characterBox.css">
+
+</head>
+
+<body>
+
+<div class="screen">
+
+  <div class="bg"></div>
+
+  <!-- 左メニュー -->
+  <div class="side-menu">
+
+    <div class="filter-btn active">全員</div>
+    <div class="filter-btn">R</div>
+    <div class="filter-btn">SR</div>
+    <div class="filter-btn">SSR</div>
+
+  </div>
+
+  <!-- 戻る -->
+  <button
+    class="back-button"
+    onclick="location.href='index.html'"
+  >
+    ←
+  </button>
+
+  <!-- 検索 -->
+  <div class="search-bar">
+
+    <div class="search-icon"></div>
+
+    <input
+      id="search"
+      type="text"
+      placeholder="キャラ名検索"
+    >
+
+  </div>
+
+  <!-- キャラ一覧 -->
+  <div
+    id="character-grid"
+    class="character-grid"
+  >
+  </div>
+
+</div>
+
+<!-- データ -->
+<script src="data/charaData.js"></script>
+
+<!-- JS -->
+<script src="js/characterBox.js"></script>
+
+</body>
+</html>

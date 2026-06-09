@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Battle</title>
+  <link rel="stylesheet" href="css/battle.css">
+</head>
+
+<body>
+
+<div class="screen">
+
+  <!-- BGM -->
+  <audio id="battle-bgm" loop></audio>
+
+  <!-- 効果音 -->
+  <audio id="sfx-click" src="audio/sfx/click.mp3"></audio>
+  <audio id="sfx-attack" src="audio/sfx/attack.mp3"></audio>
+  <audio id="sfx-hit" src="audio/sfx/hit.mp3"></audio>
+  <audio id="sfx-skill" src="audio/sfx/skill.mp3"></audio>
+  <audio id="sfx-guard" src="audio/sfx/guard.mp3"></audio>
+  <audio id="sfx-win" src="audio/sfx/win.mp3"></audio>
+  <audio id="sfx-lose" src="audio/sfx/lose.mp3"></audio>
+
+  <img id="battle-bg" class="battle-bg" src="" alt="">
+
+  <div id="battle-start" class="battle-start hidden">BATTLE START</div>
+  <div id="turn-banner" class="turn-banner hidden">PLAYER TURN</div>
+
+  <div class="actor-box">
+    <span id="current-actor-name">行動キャラ</span>
+  </div>
+
+  <div class="battle-ui-top">
+    <button id="log-button" class="top-button">ログ</button>
+
+    <button id="menu-button" class="menu-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <div class="notice-box">
+    <div id="battle-notice">戦闘中の通知</div>
+  </div>
+
+  <div id="party-area" class="party-area"></div>
+  <div id="enemy-area" class="enemy-area"></div>
+
+  <div class="command-area">
+    <div class="command-title">コマンド選択</div>
+    <div id="command-character-name" class="command-character-name"></div>
+    <div id="command-buttons" class="command-buttons"></div>
+
+    <button id="turn-start-button" class="turn-start-button hidden">
+      行動開始
+    </button>
+  </div>
+
+  <div id="skill-tooltip" class="skill-tooltip hidden"></div>
+  <div id="character-tooltip" class="character-tooltip hidden"></div>
+
+  <div id="battle-menu" class="battle-menu hidden">
+    <div class="menu-window">
+      <button id="menu-close" class="menu-close">×</button>
+
+      <div class="menu-title">バトルメニュー</div>
+
+      <button id="resume-button" class="menu-btn blue">
+        バトルに戻る
+      </button>
+
+      <button id="retire-button" class="menu-btn red">
+        バトル中断
+      </button>
+    </div>
+  </div>
+
+  <div id="log-modal" class="log-modal hidden">
+    <div class="log-window">
+      <div class="log-header">戦闘ログ</div>
+      <div id="log-list" class="log-list"></div>
+
+      <button id="close-log-button" class="close-log-button">
+        閉じる
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script src="data/playerData.js"></script>
+<script src="data/charaData.js"></script>
+<script src="data/battleEnemyData.js"></script>
+<script src="data/statusData.js"></script>
+<script src="data/skillData.js"></script>
+<script src="data/abilityData.js"></script>
+<script src="js/battle.js"></script>
+
+</body>
+</html>

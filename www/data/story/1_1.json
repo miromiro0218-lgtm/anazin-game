@@ -1,0 +1,178 @@
+[
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "西宮高校・2年A組。いつもなら朝ホームルーム前には現れる鶴野先生の姿が、今日はまだなかった。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "珍しいな、鶴野先生が遅れるなんて"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "まあ、たまにはあるんじゃない？　今日は雨だし"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "窓の外では、夜から降り続く小雨が校庭の砂を静かに濡らしていた。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "チャイムが鳴っても鶴野は現れず、代わりに教室の扉が音もなく開いた。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "入ってきたのは見慣れない女性だった。無表情で、教師らしい柔らかさがまるでない。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "生徒",
+    "text": "……あれ？　誰？"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "生徒",
+    "text": "転任？"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "佐藤満里奈",
+    "text": "今日からこのクラスを担当します。佐藤満里奈です"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "マジで急すぎない？　鶴野どしたん"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/friend.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "男子生徒",
+    "text": "さあ。なんか知らんけど、女の先生やん。ラッキー？"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "小さな笑い声が漏れた瞬間、佐藤満里奈は教壇の裏から銀色の拳銃を取り出した。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……え？"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "パンッ。乾いた破裂音が教室を貫いた。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川の身体が跳ね、そのまま机へ崩れ落ちる。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "生徒たち",
+    "text": "な、なにして……!?　うそだろ!?　中川!? "
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "い、井口……！"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "呼吸の音も、雨音も、すべてが遠ざかっていくようだった。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "佐藤満里奈",
+    "text": "これから言うことをよく聞いてください"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "生徒全員が凍りついたのを確認すると、彼女は静かに教室を見渡した。"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "佐藤満里奈",
+    "text": "この学校では、あなたたちに人権はありません"
+  },
+  {
+    "bg": "images/bg/classroom_rain.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "その言葉は、銃声よりも重く、教室の空気を決定的に壊した。"
+  }
+]

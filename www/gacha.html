@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Gacha</title>
+<link rel="stylesheet" href="css/gacha.css">
+</head>
+
+<body>
+
+<div class="screen">
+  <div class="bg"></div>
+
+  <button class="back-button" onclick="location.href='index.html'">←</button>
+
+  <div class="title">ガチャ</div>
+
+  <div class="stone-box">
+    ガチャ石：<span id="stone-count">0</span>
+  </div>
+
+  <div class="gacha-machine">
+    <div class="gacha-light"></div>
+    <div class="gacha-text">CHARACTER GACHA</div>
+  </div>
+
+  <div class="rate-box">
+    <div>SSR：5%</div>
+    <div>SR：25%</div>
+    <div>R：70%</div>
+  </div>
+
+  <div class="buttons">
+    <button id="single-button">1回引く<br><span>石 100</span></button>
+    <button id="ten-button">10連引く<br><span>石 1000</span></button>
+  </div>
+
+  <div id="result-modal" class="result-modal hidden">
+    <div class="result-window">
+      <div class="result-title">ガチャ結果</div>
+
+      <div id="result-list" class="result-list"></div>
+
+      <button id="close-result-button">閉じる</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="data/charaData.js"></script>
+<script src="js/gacha.js"></script>
+
+</body>
+</html>

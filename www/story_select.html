@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Story Select</title>
+<link rel="stylesheet" href="css/story_select.css">
+</head>
+
+<body>
+
+<div class="screen">
+
+  <div class="bg"></div>
+
+  <!-- ホームへ戻る -->
+  <button class="home-button" onclick="location.href='index.html'">
+    ⌂
+  </button>
+
+  <!-- 章切り替え -->
+  <div class="chapter-area">
+
+    <button id="prev-chapter" class="chapter-arrow">
+      ◀
+    </button>
+
+    <div id="chapter-title" class="chapter-title">
+      第1章
+    </div>
+
+    <button id="next-chapter" class="chapter-arrow">
+      ▶
+    </button>
+
+  </div>
+
+  <!-- 左：ストーリー一覧 -->
+  <div class="story-side">
+
+    <div id="story-list" class="story-list"></div>
+
+  </div>
+
+  <!-- 右：プレビュー -->
+  <div class="preview-area">
+
+    <div class="preview-frame">
+      <img id="story-image" src="" alt="">
+    </div>
+
+    <div class="story-info-box">
+
+      <div id="story-title" class="story-title">
+        1話
+      </div>
+
+      <div id="story-subtitle" class="story-subtitle">
+        始まり
+      </div>
+
+      <div id="story-level" class="story-level">
+        推奨Lv 1
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- 下ボタン -->
+  <div class="bottom-buttons">
+
+    <button
+      class="party-button"
+      onclick="location.href='party.html'"
+    >
+      キャラ編成
+    </button>
+
+    <button
+      id="start-button"
+      class="start-button"
+    >
+      スタート
+    </button>
+
+  </div>
+
+</div>
+
+<script src="data/playerData.js"></script>
+<script src="data/storyData.js"></script>
+<script src="js/story_select.js"></script>
+
+</body>
+</html>
