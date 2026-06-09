@@ -1,0 +1,862 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  overflow:hidden;
+  background:black;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
+}
+
+/* ================= 画面 ================= */
+
+.screen{
+  width:1920px;
+  height:1080px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  transform-origin:center center;
+  overflow:hidden;
+  background:black;
+}
+
+.battle-bg{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index:0;
+}
+
+/* ================= 上UI ================= */
+
+.actor-box{
+  position:absolute;
+  left:40px;
+  top:40px;
+  width:270px;
+  height:100px;
+  background:black;
+  border:5px solid white;
+  color:white;
+  font-size:32px;
+  font-weight:bold;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:50;
+}
+
+.battle-ui-top{
+  position:absolute;
+  right:35px;
+  top:25px;
+  display:flex;
+  align-items:center;
+  gap:22px;
+  z-index:60;
+}
+
+.top-button{
+  width:130px;
+  height:60px;
+  border:none;
+  border-radius:30px;
+  background:#1984ff;
+  color:white;
+  font-size:28px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.menu-button{
+  position:absolute;
+  top:20px;
+  right:120px;
+
+  width:64px;
+  height:64px;
+
+  border:none;
+  border-radius:50%;
+
+  background:rgba(0,0,0,.65);
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:7px;
+
+  cursor:pointer;
+  z-index:700;
+}
+/* ================= 通知 ================= */
+
+.notice-box{
+  position:absolute;
+  right:100px;
+  top:120px;
+  width:700px;
+  height:250px;
+  background:rgba(0,255,255,0.28);
+  border:6px solid #00f7ff;
+  box-shadow:
+    0 0 20px #00f7ff,
+    inset 0 0 20px rgba(0,255,255,0.35);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:30px;
+  z-index:30;
+}
+
+#battle-notice{
+  color:white;
+  font-size:34px;
+  font-weight:bold;
+  text-align:center;
+  text-shadow:
+    3px 3px 0 black,
+    0 0 8px black;
+}
+
+/* ================= キャラ配置 ================= */
+
+.party-area{
+  position:absolute;
+  left:80px;
+  bottom:70px;
+  display:flex;
+  gap:45px;
+  z-index:20;
+}
+
+.enemy-area{
+  position:absolute;
+  right:90px;
+  bottom:70px;
+  display:flex;
+  gap:45px;
+  z-index:20;
+}
+
+.battle-character{
+  width:220px;
+  height:380px;
+  position:relative;
+  cursor:pointer;
+  transition:0.15s;
+}
+
+.battle-character img{
+  position:absolute;
+  left:50%;
+  bottom:78px;
+  transform:translateX(-50%);
+  max-width:215px;
+  max-height:300px;
+  object-fit:contain;
+  filter:drop-shadow(0 12px 10px rgba(0,0,0,0.55));
+}
+
+.battle-character.enemy:hover{
+  transform:translateY(-8px) scale(1.03);
+}
+
+.battle-character.enemy.selected,
+.battle-character.selected{
+  filter:
+    brightness(1.15)
+    drop-shadow(0 0 18px cyan);
+}
+
+.battle-character.dead{
+  opacity:0.35;
+  filter:grayscale(1);
+}
+
+/* ================= HP / SP ================= */
+
+.hp-bar{
+  position:absolute;
+  left:20px;
+  bottom:42px;
+  width:180px;
+  height:18px;
+  background:#222;
+  border-radius:12px;
+  overflow:hidden;
+  border:2px solid rgba(255,255,255,0.4);
+}
+
+.hp-fill{
+  height:100%;
+  background:#00ff1e;
+  transition:width 0.25s;
+}
+
+.sp-bar{
+  position:absolute;
+  left:20px;
+  bottom:18px;
+  width:180px;
+  height:14px;
+  background:#222;
+  border-radius:12px;
+  overflow:hidden;
+  border:2px solid rgba(255,255,255,0.35);
+}
+
+.sp-fill{
+  height:100%;
+  background:#2f75ff;
+  transition:width 0.25s;
+}
+
+/* ================= 状態異常アイコン ================= */
+
+.status-icons{
+  position:absolute;
+  top:4px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:6px;
+  flex-wrap:wrap;
+  justify-content:center;
+  width:210px;
+  z-index:25;
+}
+
+.status-icon{
+  width:36px;
+  height:36px;
+  position:relative;
+  background:#222;
+  border:2px solid white;
+  border-radius:50%;
+  color:white;
+  font-size:18px;
+  font-weight:bold;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:
+    0 0 8px black,
+    inset 0 0 6px rgba(255,255,255,0.25);
+}
+
+.status-icon.burn{
+  background:#ff3b1f;
+}
+
+.status-icon.paralyze{
+  background:#ffd000;
+  color:#222;
+}
+
+.status-icon.freeze{
+  background:#7ee7ff;
+  color:#003344;
+}
+
+.status-icon.time_stop{
+  background:#7b2cff;
+}
+
+.status-icon.shock{
+  background:#00e5ff;
+  color:#002;
+}
+
+.status-icon.taunt{
+  background:#ff5cac;
+}
+
+.status-icon.status_immunity{
+  background:#28c76f;
+}
+
+.status-icon.status_resist{
+  background:#00b894;
+}
+
+.status-icon.damage_transfer{
+  background:#9b59b6;
+}
+
+.status-turn{
+  position:absolute;
+  right:-5px;
+  bottom:-5px;
+  width:17px;
+  height:17px;
+  background:red;
+  color:white;
+  border-radius:50%;
+  font-size:11px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid white;
+}
+
+/* ================= コマンド ================= */
+
+.command-area{
+  position:absolute;
+  left:360px;
+  top:210px;
+  width:360px;
+  z-index:40;
+}
+
+.command-title{
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+  margin-bottom:18px;
+  text-shadow:3px 3px 0 black;
+}
+
+.command-character-name{
+  color:#00e5ff;
+  font-size:36px;
+  font-weight:bold;
+  margin-bottom:24px;
+  text-shadow:3px 3px 0 black;
+}
+
+.command-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+}
+
+.command-button{
+  width:300px;
+  height:85px;
+  border:none;
+  color:white;
+  font-size:38px;
+  font-weight:bold;
+  cursor:pointer;
+  text-shadow:3px 3px 0 black;
+  clip-path:polygon(
+    10% 0,
+    100% 0,
+    88% 100%,
+    0 100%
+  );
+  transition:0.15s;
+}
+
+.command-button:hover{
+  transform:translateX(10px) scale(1.03);
+}
+
+.command-button:disabled{
+  opacity:0.45;
+  filter:grayscale(1);
+  cursor:not-allowed;
+}
+
+.command-button.attack{
+  background:linear-gradient(90deg,#d60000,#ff5555);
+}
+
+.command-button.guard{
+  background:linear-gradient(90deg,#0068ff,#50c8ff);
+}
+
+.command-button.skill{
+  background:linear-gradient(90deg,#7b2cff,#4dcfff);
+}
+
+.turn-start-button{
+  margin-top:30px;
+  width:310px;
+  height:90px;
+  border:none;
+  border-radius:20px;
+  background:linear-gradient(#ffe066,#ffb700);
+  color:#222;
+  font-size:38px;
+  font-weight:bold;
+  cursor:pointer;
+  box-shadow:0 8px 0 #b88600;
+  transition:0.15s;
+}
+
+.turn-start-button:hover{
+  filter:brightness(1.08);
+}
+
+.turn-start-button:active{
+  transform:translateY(5px);
+  box-shadow:0 3px 0 #b88600;
+}
+
+/* ================= コマンド詳細吹き出し ================= */
+
+.skill-tooltip{
+  position:absolute;
+  width:360px;
+  min-height:150px;
+  background:rgba(0,0,0,0.92);
+  border:3px solid #4da6ff;
+  border-radius:16px;
+  padding:18px;
+  color:white;
+  font-size:22px;
+  line-height:1.45;
+  z-index:9999;
+  box-shadow:
+    0 0 18px #4da6ff,
+    inset 0 0 12px rgba(77,166,255,0.35);
+  pointer-events:none;
+}
+
+.skill-tooltip h3{
+  margin:0 0 10px;
+  color:#00e5ff;
+  font-size:28px;
+  text-shadow:0 0 10px #00e5ff;
+}
+
+.skill-tooltip .skill-row{
+  margin:5px 0;
+}
+
+.skill-tooltip .skill-desc{
+  margin-top:10px;
+  color:#ddd;
+}
+
+/* ================= バトル開始 / ターン演出 ================= */
+
+.battle-start{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  font-size:120px;
+  font-weight:bold;
+  color:white;
+  text-shadow:
+    0 0 20px cyan,
+    0 0 40px cyan,
+    5px 5px 0 black;
+  z-index:999;
+  animation:startAnim 2s forwards;
+}
+
+@keyframes startAnim{
+  0%{
+    opacity:0;
+    transform:translate(-50%, -50%) scale(3);
+    filter:blur(16px);
+  }
+
+  25%{
+    opacity:1;
+    transform:translate(-50%, -50%) scale(1);
+    filter:blur(0);
+  }
+
+  75%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0;
+    transform:translate(-50%, -50%) scale(0.85);
+  }
+}
+
+.turn-banner{
+  position:absolute;
+  left:50%;
+  top:120px;
+  transform:translateX(-50%);
+  padding:20px 80px;
+  background:rgba(0,0,0,0.82);
+  border:5px solid cyan;
+  color:white;
+  font-size:56px;
+  font-weight:bold;
+  box-shadow:0 0 20px cyan;
+  text-shadow:3px 3px 0 black;
+  z-index:999;
+  animation:turnAnim 1.5s forwards;
+}
+
+@keyframes turnAnim{
+  0%{
+    opacity:0;
+    transform:translateX(-50%) scale(2);
+    filter:blur(12px);
+  }
+
+  20%{
+    opacity:1;
+    filter:blur(0);
+  }
+
+  80%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0;
+    transform:translateX(-50%) scale(1);
+  }
+}
+
+/* ================= ダメージ ================= */
+
+.damage{
+  position:absolute;
+  color:red;
+  font-size:54px;
+  font-weight:bold;
+  text-shadow:
+    3px 3px 0 black,
+    0 0 8px white;
+  animation:damagePop 0.8s forwards;
+  z-index:999;
+}
+
+@keyframes damagePop{
+  0%{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+
+  100%{
+    opacity:0;
+    transform:translateY(-80px) scale(1.25);
+  }
+}
+
+/* ================= アビリティ発動演出 ================= */
+
+.ability-popup{
+  position:absolute;
+  color:#00ffff;
+  font-size:30px;
+  font-weight:bold;
+  white-space:nowrap;
+  pointer-events:none;
+  z-index:9999;
+  text-shadow:
+    0 0 10px cyan,
+    0 0 25px cyan,
+    3px 3px 0 black;
+  animation:abilityPop 1.25s forwards;
+}
+
+@keyframes abilityPop{
+  0%{
+    opacity:0;
+    transform:translateY(25px) scale(0.4);
+  }
+
+  20%{
+    opacity:1;
+    transform:translateY(0) scale(1.25);
+  }
+
+  75%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0;
+    transform:translateY(-55px) scale(1);
+  }
+}
+
+.ability-flash{
+  position:absolute;
+  width:190px;
+  height:190px;
+  border-radius:50%;
+  background:radial-gradient(
+    circle,
+    rgba(0,255,255,0.9),
+    rgba(0,255,255,0.25),
+    rgba(0,255,255,0)
+  );
+  pointer-events:none;
+  z-index:9998;
+  animation:abilityFlash 0.85s forwards;
+}
+
+@keyframes abilityFlash{
+  0%{
+    opacity:1;
+    transform:scale(0.2);
+  }
+
+  100%{
+    opacity:0;
+    transform:scale(2.2);
+  }
+}
+
+.ability-ring{
+  position:absolute;
+  width:220px;
+  height:220px;
+  border:5px solid cyan;
+  border-radius:50%;
+  pointer-events:none;
+  z-index:9997;
+  animation:abilityRing 0.9s forwards;
+}
+
+@keyframes abilityRing{
+  0%{
+    opacity:1;
+    transform:scale(0.3) rotate(0deg);
+  }
+
+  100%{
+    opacity:0;
+    transform:scale(1.8) rotate(180deg);
+  }
+}
+
+/* ================= ログ ================= */
+
+.log-modal{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.7);
+  z-index:9999;
+}
+
+.log-window{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  width:900px;
+  height:700px;
+  background:#111;
+  border:5px solid cyan;
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+}
+
+.log-header{
+  color:white;
+  font-size:48px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.log-list{
+  flex:1;
+  overflow-y:auto;
+  color:white;
+  font-size:30px;
+  line-height:1.8;
+}
+
+.close-log-button{
+  width:200px;
+  height:70px;
+  margin:25px auto 0;
+  border:none;
+  border-radius:15px;
+  background:#1984ff;
+  color:white;
+  font-size:32px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+/* ================= 共通 ================= */
+
+.hidden{
+  display:none !important;
+}
+
+.character-tooltip{
+  position:absolute;
+  width:360px;
+  background:rgba(0,0,0,.92);
+  border:3px solid #ffffff;
+  border-radius:16px;
+  padding:18px;
+  color:white;
+  font-size:22px;
+  line-height:1.5;
+  z-index:9999;
+  box-shadow:0 0 18px cyan;
+  pointer-events:none;
+}
+
+.character-tooltip h3{
+  margin:0 0 10px;
+  color:#00e5ff;
+  font-size:28px;
+}
+
+.stat-up{
+  color:#ff4b4b;
+  font-weight:bold;
+}
+
+.stat-down{
+  color:#4da6ff;
+  font-weight:bold;
+}
+
+.menu-button{
+  position:absolute;
+  top:35px;
+  right:170px;
+
+  width:64px;
+  height:64px;
+
+  border:none;
+  border-radius:50%;
+
+  background:rgba(0,0,0,.65);
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:7px;
+
+  cursor:pointer;
+  z-index:700;
+
+  box-shadow:0 0 12px rgba(255,255,255,.5);
+}
+
+.menu-button span{
+  display:block;
+  width:30px;
+  height:4px;
+  background:white;
+  border-radius:4px;
+}
+
+.battle-menu{
+  position:absolute;
+  inset:0;
+
+  background:rgba(0,0,0,.72);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  z-index:9999;
+}
+
+.menu-window{
+  position:relative;
+
+  width:620px;
+
+  background:rgba(10,20,35,.96);
+  border:4px solid #4db8ff;
+  border-radius:24px;
+
+  padding:42px;
+
+  color:white;
+
+  box-shadow:0 0 25px rgba(77,184,255,.85);
+}
+
+.menu-title{
+  text-align:center;
+  font-size:42px;
+  font-weight:bold;
+  margin-bottom:35px;
+}
+
+.menu-close{
+  position:absolute;
+  right:22px;
+  top:18px;
+
+  width:50px;
+  height:50px;
+
+  border:3px solid white;
+  border-radius:50%;
+
+  background:none;
+  color:white;
+
+  font-size:32px;
+  font-weight:bold;
+
+  cursor:pointer;
+}
+
+.volume-block{
+  margin-bottom:28px;
+}
+
+.volume-label{
+  font-size:26px;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.volume-block input{
+  width:470px;
+}
+
+.volume-block span{
+  display:inline-block;
+  width:70px;
+  text-align:right;
+  font-size:22px;
+}
+
+.menu-btn{
+  width:100%;
+  height:76px;
+
+  border:none;
+  border-radius:14px;
+
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  margin-top:18px;
+}
+
+.menu-btn.blue{
+  background:linear-gradient(#2e8cff,#0050d8);
+}
+
+.menu-btn.red{
+  background:linear-gradient(#ff4242,#c80000);
+}
+
+.hidden{
+  display:none !important;
+}

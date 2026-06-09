@@ -1,0 +1,324 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  overflow:hidden;
+  background:black;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
+}
+
+.screen{
+  width:1980px;
+  height:1080px;
+
+  position:absolute;
+  left:50%;
+  top:50%;
+
+  transform:translate(-50%, -50%);
+  transform-origin:center center;
+
+  overflow:hidden;
+  background:black;
+}
+
+/* 背景 */
+
+.bg-image{
+  position:absolute;
+  inset:0;
+
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+
+  z-index:0;
+}
+
+/* キャラ */
+
+.character{
+  position:absolute;
+
+  bottom:120px;
+
+  max-height:820px;
+  max-width:620px;
+
+  object-fit:contain;
+
+  z-index:5;
+
+  filter:
+    drop-shadow(
+      0 16px 12px rgba(0,0,0,.55)
+    );
+
+  transition:.25s;
+}
+
+.character.left{
+  left:240px;
+}
+
+.character.right{
+  right:240px;
+}
+
+.character.inactive{
+  opacity:.55;
+  filter:
+    grayscale(.35)
+    drop-shadow(
+      0 16px 12px rgba(0,0,0,.55)
+    );
+}
+
+.character.hidden-char{
+  display:none;
+}
+
+/* 上ボタン */
+
+.top-buttons{
+  position:absolute;
+
+  right:45px;
+  top:35px;
+
+  display:flex;
+  gap:18px;
+
+  z-index:30;
+}
+
+.top-buttons button{
+  width:120px;
+  height:58px;
+
+  border:none;
+  border-radius:30px;
+
+  background:rgba(0,0,0,.75);
+  border:3px solid #2dcbff;
+
+  color:white;
+
+  font-size:24px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  box-shadow:
+    0 0 12px rgba(45,203,255,.8);
+}
+
+.top-buttons button.active{
+  background:#2dcbff;
+  color:#111;
+}
+
+/* メッセージ */
+
+#message-box{
+  position:absolute;
+
+  left:120px;
+  right:120px;
+  bottom:55px;
+
+  min-height:260px;
+
+  background:rgba(0,0,0,.78);
+
+  border:5px solid #2dcbff;
+  border-radius:28px;
+
+  padding:38px 48px;
+
+  color:white;
+
+  z-index:20;
+
+  box-shadow:
+    0 0 22px rgba(45,203,255,.7),
+    inset 0 0 18px rgba(45,203,255,.25);
+
+  cursor:pointer;
+}
+
+#speaker-name{
+  position:absolute;
+
+  left:50px;
+  top:-46px;
+
+  min-width:260px;
+  height:70px;
+
+  background:linear-gradient(#38d7ff,#0c82bd);
+
+  border-radius:24px 24px 8px 8px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  color:white;
+
+  font-size:34px;
+  font-weight:bold;
+
+  text-shadow:3px 3px 0 black;
+
+  border:4px solid white;
+}
+
+#message-text{
+  font-size:38px;
+  line-height:1.8;
+  font-weight:bold;
+
+  text-shadow:
+    3px 3px 0 black;
+}
+
+.next-mark{
+  position:absolute;
+
+  right:45px;
+  bottom:22px;
+
+  color:#2dcbff;
+
+  font-size:34px;
+
+  animation:nextBlink 1s infinite;
+}
+
+@keyframes nextBlink{
+  0%{
+    opacity:0;
+    transform:translateY(-5px);
+  }
+
+  50%{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+  100%{
+    opacity:0;
+    transform:translateY(5px);
+  }
+}
+
+/* 非表示 */
+
+.story-hide #message-box{
+  display:none;
+}
+
+.story-hide .top-buttons button:not(#hide-button){
+  display:none;
+}
+
+/* ログ */
+
+#log-modal{
+  position:absolute;
+  inset:0;
+
+  background:rgba(0,0,0,.75);
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  z-index:999;
+}
+
+.log-window{
+  width:1100px;
+  height:760px;
+
+  background:rgba(10,20,35,.96);
+
+  border:5px solid #2dcbff;
+  border-radius:28px;
+
+  padding:35px;
+
+  box-shadow:
+    0 0 28px rgba(45,203,255,.9);
+
+  display:flex;
+  flex-direction:column;
+}
+
+.log-title{
+  font-size:46px;
+  font-weight:bold;
+
+  color:white;
+
+  margin-bottom:25px;
+
+  text-shadow:3px 3px 0 black;
+}
+
+#log-list{
+  flex:1;
+
+  overflow-y:auto;
+
+  background:rgba(255,255,255,.08);
+
+  border-radius:18px;
+
+  padding:25px;
+
+  color:white;
+
+  font-size:28px;
+  line-height:1.7;
+}
+
+.log-line{
+  padding:12px 0;
+  border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+.log-speaker{
+  color:#2dcbff;
+  font-weight:bold;
+}
+
+#close-log{
+  width:240px;
+  height:70px;
+
+  margin:25px auto 0;
+
+  border:none;
+  border-radius:22px;
+
+  background:#2dcbff;
+  color:#111;
+
+  font-size:30px;
+  font-weight:bold;
+
+  cursor:pointer;
+}
+
+/* 共通 */
+
+.hidden{
+  display:none !important;
+}

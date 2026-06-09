@@ -1,0 +1,147 @@
+
+[
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "廃墟の瓦礫の中で、井口たちは荒い呼吸を整えていた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "空には夜の静けさが戻り、戦いの余韻だけが街に漂う。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "瓦礫の隙間に、ひとつの紙切れが落ちていた。無造作に折りたたまれたそれは――満里奈の手記だった。"
+  },
+  {
+    "bg": "images/bg/diary_note.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "井口がそれを拾い上げ、広げる。手書きの文字は冷たくも、どこか切実だった。"
+  },
+  {
+    "bg": "images/bg/diary_note.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "満里奈の手記",
+    "text": "私は私じゃない――操っていたのは……宇佐美。"
+  },
+  {
+    "bg": "images/bg/diary_note.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "満里奈の手記",
+    "text": "私はただの駒で、判断も行動も、ほとんどあの人の指示の通りだった。"
+  },
+  {
+    "bg": "images/bg/diary_note.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "満里奈の手記",
+    "text": "妹の死も、あの人が仕組んだこと。私は知らずに、誰かを傷つけていた……"
+  },
+  {
+    "bg": "images/bg/diary_note.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "満里奈の手記",
+    "text": "どうか、この罪を償えるなら、まだ人として立ち上がれるなら――みんな、許してほしい"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は手記を胸に押し当てた。中川、明日木、海老原も、言葉はなく、ただ静かにそれを読み込む。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/marina.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈は戦いの痕跡を残しながらも、微かに呼吸していた。意識は戻っていない――しかし、生きている。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……これで……やっと真実が分かったんだな"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "満里奈は……操られていただけだった……"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "次は……宇佐美だな"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……そうだな"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "四人は、満里奈をそのまま残し、廃墟を後にした。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "冷たい夜風が吹き抜け、瓦礫の山には満里奈の体温と、紙切れが揺れていた。"
+  },
+  {
+    "bg": "images/bg/dark_alley.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "街は静寂を取り戻す。だがその背後、誰も気づかぬ場所で――"
+  },
+  {
+    "bg": "images/bg/dark_alley.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "？？？",
+    "text": "まだ終わりじゃないよ、お姉ちゃん……"
+  }
+]

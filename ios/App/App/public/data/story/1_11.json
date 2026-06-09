@@ -1,0 +1,442 @@
+[
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "街の中心部──瓦礫と崩落したビルが影を落とす広場に、ひときわ強い圧が漂っていた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈が立っているだけで、空気が震えているようだった。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "井口くん。あなたはもう“悪い”と判定されています"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "悪い人間は、生きるべきじゃありません"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口はブレイクを構え、宮舘はタイムキープの構えを取る。明日木も震えながら一歩前へ出た。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……やるしか、ねぇだろ"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈が指を弾いた瞬間──空気が歪んだ。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "ルール。“あなたたちは──10秒間、満里奈の方向を見続けなければならない”。破れば、死に至ります"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "ふざけんな……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "視線を逸らせば終わり。攻撃のための動作さえ、大きく制限される。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "明日木！ ナイフだッ！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘は懐から一本のナイフを取り出し、背中越しに投げた。明日木は視線を逸らさずに受け取る。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "井口！ 動きの合図は合わせる！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "わかった……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "──十秒間だけ止める！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘の瞳が光り、世界が薄い膜に覆われるように静止した。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "今だ、明日木！！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木はナイフを握りしめ、満里奈へ向かって走り込んだ。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "誰かを傷つけるために走るのは初めてだった。それでも、やらなければ誰かが倒れる。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "うおおおあああああッッ！！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木は渾身の力でナイフを突き出した。刃は確かに満里奈へ届いた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘の能力が解除され、世界が再び動き出す。満里奈の身体がぐらりと傾いた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……やった……？ やったのか……？"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木の手が震える。それは致命傷のはずだった。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "……そのナイフ、痛かったですよ……"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "な……んだよ、お前……なんで……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "能力を、使いました"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "“痛いの痛いの飛んでけ”。自分の傷を──別の場所へ“移す”能力です"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "刹那、満里奈の傷が消えた。同時に、遠くのビルの影で中川の身体が大きく揺れた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……え？"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘の目が大きく見開かれる。明日木の手からナイフが滑り落ちた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……や、め……ろ……よ……"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "駆けつけていた中川が、その場に崩れ落ちる。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "いや……嘘だ、だって俺……刺してない……俺は……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "井……口……たの……む……満里奈……倒……して……"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "中川の手が、力なく地面へ落ちた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "う……あ……あぁ……ああああああぁあ！！！！！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "俺が……俺が殺したんだ……！？ 違う、違うだろ……なんで……なんで……！！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "殺したのは明日木くんです。ルールは破っていません"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "満里奈ァァァァァ！！！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口がブレイクを構えて突っ込む。しかし満里奈は、影の中へ滑り込むように姿を消した。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "また会いましょう。その時までに──善人になっていてくださいね"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "瞬時に、満里奈の気配が消える。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "倒れた中川の横で、明日木は動けなかった。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……俺が殺した。止めるためだったのに……守ろうとしたのに……"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口が肩に手を置こうとするが、明日木はそれを跳ね除けた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "来るな！！ 俺なんか、もう……一緒にいる資格ない……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "明日木……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "悪かった……本当に悪かった……俺は……行く。誰とも、もう……一緒にいられねぇ……！"
+  },
+  {
+    "bg": "images/bg/dark_alley.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "さよならだ……井口……"
+  },
+  {
+    "bg": "images/bg/dark_alley.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "明日木は背中を向け、暗い路地へ消えていった。井口は追いかけられなかった。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "……能力が……強すぎる……。あれは、コピー能力じゃなければ説明できない……！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は拳を握り、痛みをこらえるように俯いた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "満里奈……絶対に止める。中川のためにも……明日木のためにも……"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜の冷気が二人の間を通り抜け、静まり返った広場には風の音だけが残った。"
+  }
+]

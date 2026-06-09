@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Character Detail</title>
+<link rel="stylesheet" href="css/characterDetail.css">
+</head>
+
+<body>
+
+<div class="screen">
+  <div class="bg"></div>
+
+  <button id="back-button" class="back-button">←</button>
+
+  <img id="character-image" class="character-image" src="" alt="">
+
+  <button class="level-button">レベルアップ</button>
+
+  <div class="detail-panel">
+
+    <div id="character-rarity" class="rarity"></div>
+    <div id="character-name" class="character-name"></div>
+    <div id="character-role" class="role"></div>
+
+    <div class="level-area">
+      <div id="character-level" class="character-level">
+        Lv 1
+      </div>
+
+      <div class="exp-area">
+        <div class="exp-bar">
+          <div id="exp-fill" class="exp-fill"></div>
+        </div>
+
+        <div id="character-exp" class="character-exp">
+          0 / 80
+        </div>
+      </div>
+    </div>
+
+    <div id="character-attribute" class="element-circle"></div>
+
+    <div class="line"></div>
+
+    <h2>ステータス</h2>
+
+    <div class="stats-grid">
+      <div>HP：<span id="stat-hp"></span></div>
+      <div>ATK：<span id="stat-atk"></span></div>
+      <div>DEF：<span id="stat-def"></span></div>
+      <div>SPD：<span id="stat-spd"></span></div>
+      <div>SP：<span id="stat-sp"></span></div>
+      <div>EVA：<span id="stat-eva"></span></div>
+    </div>
+
+    <h2>コマンド</h2>
+    <div id="command-list" class="detail-list"></div>
+
+    <h2>アビリティ</h2>
+    <div id="ability-list" class="detail-list"></div>
+
+  </div>
+</div>
+
+<script src="data/playerData.js"></script>
+<script src="data/charaData.js"></script>
+<script src="js/characterDetail.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+/* 左 */
+.left {
+  width: 40%;
+}
+
+.chara-img {
+  width: 150px;
+}
+
+#levelBtn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: gold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* コマンド */
+#commandArea {
+  margin-top: 30px;
+}
+
+.command {
+  position: relative;
+  background: linear-gradient(135deg, #ff2a2a, #b80000);
+  color: white;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.command:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px red;
+}
+
+/* ツールチップ */
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.command:hover .tooltip {
+  display: block;
+}
+
+/* 右 */
+.right {
+  width: 40%;
+}
+
+.status-box {
+  border: 3px solid #6ab0de;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+}
+
+.ability-box {
+  border: 3px solid #4CAF50;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+}
+
+/* ステータスバー */
+.stat {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar {
+  width: 150px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 5px;
+}
+
+.bar div {
+  height: 100%;
+  border-radius: 5px;
+}
+
+#hpBar { background: red; }
+#atkBar { background: orange; }
+#defBar { background: blue; }
+#spdBar { background: green; }
+#spBar { background: purple; }

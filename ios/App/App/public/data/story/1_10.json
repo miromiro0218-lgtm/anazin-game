@@ -1,0 +1,563 @@
+
+[
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "瓦礫の散乱した工事区画。まるでここだけ世界が剥がれ落ちたような光景の中、三人は対峙していた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "尾形オペレーション無機物──無機物を思うままに操る力を持つ男は、折れた鉄骨の上から鋭い視線を向けていた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "対する海老原は、ヒューマンの能力で傷を再生させながら立ち上がる。中川は息を切らしながら、ジャッジメントの効果を維持していた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……くっ……ジャッジメント、もう一つ制限を掛ける！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "right",
+    "speaker": "尾形",
+    "text": "相変わらず鬱陶しい能力だな……"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "尾形が足元の鉄骨を軽く叩く。その瞬間、鉄骨、瓦礫、ガードレール、電柱の残骸が、生き物のように組み上がっていく。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "っ……来るぞ！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "鉄の牙が嵐のように迫る。中川は咄嗟に飛び退き、海老原は脚を強化して尾形へ接近した。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "うおおおおっ！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "right",
+    "speaker": "尾形",
+    "text": "チッ……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "尾形は腕を振り抜き、道路に散らばったガラス片を弾丸のように射出した。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "だが海老原は体をひねって回避しながら突進を続け、拳を尾形へ叩き込んだ。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "がっ……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "いける！ 今のうちに！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "言われなくても……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原は連撃を叩き込む。一撃ごとにヒューマンの筋肉が調整され、尾形の守りを崩していった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "right",
+    "speaker": "尾形",
+    "text": "……ククッ……悪くないな"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "その余裕を見た瞬間、海老原の背筋に嫌な感覚が走った。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "right",
+    "speaker": "尾形",
+    "text": "無機物操作は、触れた瞬間だけとは限らない。……“電線”も無機物だろ？"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "おい……まさか、それ……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/ogata.png",
+    "active": "right",
+    "speaker": "尾形",
+    "text": "──そうだ"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "尾形の手が握られた瞬間、瓦礫の下に埋まっていた高圧電線が一斉にうねり、赤い火花を散らしながら表層へ飛び出した。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "中川ァ！！ 伏せろ！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "“流れ”を変えるのも、俺の仕事だ"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "巨大な蛇のような電線が、中川へ向かって襲いかかる。中川は凍りついたように動けなかった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "くそ……動け……動けよ！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "その瞬間、海老原が飛び込んだ。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "中川ァ！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "right",
+    "speaker": "中川",
+    "text": "海老原っ！？ お前……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "うるせぇ！ こんぐらい……！ お前に死なれたら困るんだよッ！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "電流が海老原の全身を貫いた。ヒューマンの力で肉体は再生しようとするが、衝撃はあまりにも大きかった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原の膝が崩れる。再生が追いつかず、彼の身体から力が抜けていった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "馬鹿……！ 馬鹿野郎ッ……！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "良い判断だったが……甘いな。戦いは“最初の一手”じゃねぇ。“最後に残る奴”で決まる"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原はかすかに笑ったまま、瓦礫の上に倒れた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "海老原……やめろ……眠るな……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "次は……お前だ、中川"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "燃え残った電線の火花が、二人の間に落ちた。焦げた鉄の匂いが、戦場に重く残っていた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原の身体が瓦礫の上に横たわる横で、中川は拳を震わせながら尾形を睨みつけていた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "……さて。さっきのガキが死んで、残るはお前か"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "海老原を……殺したな"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "お前を殺せなかっただけでも、充分だろ？"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川の中で何かが切れた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "ジャッジメント……発動だ……尾形ッ！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川の眼が不自然な光を宿す。尾形の身体に黒い影の輪が絡みついた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "制限《ルール》……お前は、“3秒以上、同じ姿勢で静止してはいけない”。破れば──1ポイントだ"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "チッ……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "ルールを破らないように、尾形は常に体を小刻みに動かし続ける。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "もうひとつ……“地面に触れてはいけない”"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "……なんだと？"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "尾形は咄嗟に鉄骨を浮かし、その上に飛び乗る。だが──それは中川の狙いだった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "落ちろよ……尾形ァ！！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "中川の足元から、散乱していた鉄片が空気を裂く速度で舞い上がった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "クソッ……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "鉄片が尾形の脇腹を掠める。尾形は痛みに顔を歪めながらも、必死にバランスを取った。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "だが、そのバランスが一瞬だけ崩れた。鉄骨から足がずり落ち、地面の表面をかすめる。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……二回目の違反だ、尾形"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "あと1回……あと1回で……お前は死ぬ"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "くそったれが……！ だがな──死ぬ前にやることくらい、あるんだよ！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "尾形は周囲に散らばる鉄片、電線、ガラス片を一斉に操り、巨大な金属嵐を作り出した。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "尾形",
+    "text": "ジャッジメントをかけられたまま戦い続けるのは、分が悪すぎる。……仕切り直しだ！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "金属の嵐が中川へ迫り、視界を覆った瞬間──尾形の姿は、瓦礫の影の向こうへと消えていた。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "逃げた……！"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "追うべきか。ここに留まるべきか。中川が迷ったのは、ほんの一瞬だけだった。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "海老原……必ず仇を討つ。けど……今は──"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "遠くで、破壊音と咆哮が響いた。満里奈との戦闘が始まったのだ。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "井口、明日木、宮舘が危ない。今のままでは、きっと間に合わない。"
+  },
+  {
+    "bg": "images/bg/construction_ruins.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "left",
+    "speaker": "中川",
+    "text": "待ってろよ……井口……明日木……！ 今度は俺が助ける番だ！！"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "ジャッジメントの黒い輪が、中川の背後に浮かび続ける。その影を引きずりながら、中川は満里奈たちがいる中心街へと駆けた。"
+  },
+  {
+    "bg": "images/bg/city_center_night.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "その姿は、まるで海老原の残した炎をそのまま背負う戦士のようだった。"
+  }
+]

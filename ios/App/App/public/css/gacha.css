@@ -1,0 +1,345 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  overflow:hidden;
+  background:black;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
+}
+
+.screen{
+  width:1980px;
+  height:1080px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  transform-origin:center center;
+  overflow:hidden;
+}
+
+.bg{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.55)),
+    url("../images/bg/school_evening.jpg") center / cover no-repeat;
+  z-index:0;
+}
+
+.back-button{
+  position:absolute;
+  left:45px;
+  top:45px;
+  width:80px;
+  height:80px;
+  border:none;
+  border-radius:50%;
+  background:#3478ff;
+  color:white;
+  font-size:44px;
+  font-weight:bold;
+  cursor:pointer;
+  z-index:50;
+}
+
+.title{
+  position:absolute;
+  top:55px;
+  left:50%;
+  transform:translateX(-50%);
+  color:white;
+  font-size:70px;
+  font-weight:bold;
+  text-shadow:
+    0 0 20px #00e5ff,
+    4px 4px 0 black;
+  z-index:10;
+}
+
+.stone-box{
+  position:absolute;
+  right:70px;
+  top:55px;
+  min-width:320px;
+  height:70px;
+  background:rgba(0,0,0,.75);
+  border:3px solid #ffd700;
+  border-radius:20px;
+  color:white;
+  font-size:30px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:10;
+}
+
+.gacha-machine{
+  position:absolute;
+  left:50%;
+  top:210px;
+  transform:translateX(-50%);
+  width:720px;
+  height:420px;
+  background:rgba(0,0,0,.8);
+  border:8px solid #00e5ff;
+  border-radius:35px;
+  box-shadow:
+    0 0 25px #00e5ff,
+    inset 0 0 40px rgba(0,229,255,.35);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  z-index:10;
+}
+
+.gacha-light{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  background:radial-gradient(circle, #ffffff, #00e5ff, #003cff);
+  box-shadow:
+    0 0 30px white,
+    0 0 70px #00e5ff;
+  animation:lightPulse 1.5s infinite alternate;
+}
+
+@keyframes lightPulse{
+  from{
+    transform:scale(.95);
+    filter:brightness(1);
+  }
+  to{
+    transform:scale(1.08);
+    filter:brightness(1.5);
+  }
+}
+
+.gacha-text{
+  margin-top:35px;
+  color:white;
+  font-size:36px;
+  font-weight:bold;
+  letter-spacing:4px;
+}
+
+.rate-box{
+  position:absolute;
+  left:140px;
+  top:260px;
+  width:300px;
+  background:rgba(255,255,255,.9);
+  border:5px solid #2d6ec9;
+  padding:25px;
+  color:#111;
+  font-size:30px;
+  font-weight:bold;
+  line-height:1.8;
+  z-index:10;
+}
+
+.buttons{
+  position:absolute;
+  left:50%;
+  bottom:110px;
+  transform:translateX(-50%);
+  display:flex;
+  gap:80px;
+  z-index:10;
+}
+
+.buttons button{
+  width:340px;
+  height:120px;
+  border:none;
+  border-radius:24px;
+  background:linear-gradient(#ffe066,#ffb700);
+  color:#111;
+  font-size:36px;
+  font-weight:bold;
+  cursor:pointer;
+  box-shadow:0 9px 0 #b88600;
+  transition:.15s;
+}
+
+.buttons button span{
+  font-size:24px;
+}
+
+.buttons button:hover{
+  filter:brightness(1.08);
+}
+
+.buttons button:active{
+  transform:translateY(6px);
+  box-shadow:0 3px 0 #b88600;
+}
+
+.buttons button:disabled{
+  opacity:.45;
+  filter:grayscale(1);
+  cursor:not-allowed;
+}
+
+/* ================= 結果 ================= */
+
+.result-modal{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.75);
+  z-index:999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.result-window{
+  width:1200px;
+  height:820px;
+  background:rgba(255,255,255,.96);
+  border:7px solid #ffd700;
+  border-radius:30px;
+  padding:35px;
+  box-shadow:
+    0 0 35px gold,
+    inset 0 0 20px rgba(255,215,0,.35);
+  animation:resultOpen .35s ease;
+}
+
+@keyframes resultOpen{
+  from{
+    transform:scale(.85);
+    opacity:0;
+  }
+  to{
+    transform:scale(1);
+    opacity:1;
+  }
+}
+
+.result-title{
+  text-align:center;
+  font-size:52px;
+  font-weight:bold;
+  color:#111;
+  margin-bottom:25px;
+}
+
+.result-list{
+  height:600px;
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  gap:22px;
+  overflow-y:auto;
+  padding:10px;
+}
+
+.result-card{
+  position:relative;
+  height:250px;
+  background:#eaf2ff;
+  border:4px solid #999;
+  border-radius:18px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.result-card.R{
+  border-color:#4db8ff;
+}
+
+.result-card.SR{
+  border-color:#b54dff;
+  box-shadow:0 0 15px rgba(181,77,255,.7);
+}
+
+.result-card.SSR{
+  border-color:#ffd700;
+  box-shadow:
+    0 0 20px gold,
+    inset 0 0 18px rgba(255,215,0,.4);
+  animation:ssrGlow 1s infinite alternate;
+}
+
+@keyframes ssrGlow{
+  from{
+    filter:brightness(1);
+  }
+  to{
+    filter:brightness(1.25);
+  }
+}
+
+.result-card img{
+  max-width:130px;
+  max-height:150px;
+  object-fit:contain;
+  filter:drop-shadow(0 8px 8px rgba(0,0,0,.4));
+}
+
+.result-name{
+  margin-top:8px;
+  font-size:18px;
+  font-weight:bold;
+  text-align:center;
+  color:#111;
+}
+
+.result-rarity{
+  position:absolute;
+  top:8px;
+  left:10px;
+  font-size:22px;
+  font-weight:bold;
+}
+
+.result-rarity.R{
+  color:#4db8ff;
+}
+
+.result-rarity.SR{
+  color:#b54dff;
+}
+
+.result-rarity.SSR{
+  color:#ffd700;
+  text-shadow:1px 1px 0 #111;
+}
+
+.new-label{
+  position:absolute;
+  right:8px;
+  top:8px;
+  background:#ff2b2b;
+  color:white;
+  padding:4px 10px;
+  border-radius:12px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+#close-result-button{
+  display:block;
+  margin:25px auto 0;
+  width:260px;
+  height:75px;
+  border:none;
+  border-radius:20px;
+  background:#3478ff;
+  color:white;
+  font-size:34px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.hidden{
+  display:none !important;
+}

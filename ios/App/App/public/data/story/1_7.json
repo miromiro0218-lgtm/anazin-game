@@ -1,0 +1,506 @@
+[
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "地下室の奥から響く軋み音。全員が振り返った瞬間──空気がねじれるような感覚が吹き抜けた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "そして、細い影が扉越しにゆらりと現れる。ゆっくりと歩き出てきたのは──佐藤満里奈だった。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "……見つけましたよ、先生"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "満里奈……"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "どうして……どうしてこんなことを……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "あなたが悪いんです、つるの先生"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈は微笑んだまま、一歩前へ進む。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "わたしの“審判（ジャッジメント）”が教えてくれます。あなたは嘘をついている。──そして、悪い。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "その瞬間、地下室の空気がピンと張り詰めた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "ルール、決まりました"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "あなたは──10秒間、呼吸を止めてはいけない。破ったら死に至ります。破るたびにルールは変わります"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "なっ……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "そんな……戦えるわけないだろ……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "……満里奈。目を覚ませ。こんなの……君らしくない！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "先生。悪い人間は、生きるべきじゃないんですよ"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "言い終えた瞬間、満里奈の姿がぶれるように消えた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "次の瞬間には、鶴野の目の前に立っていた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "っ……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "呼吸、してませんよ？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野は反射的に息を吸ってしまった。ルール、一回破り。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "新しいルールです。“あなたは歩いてはいけない”"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "く……！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "井口、明日木、海老原！ 下がれ！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/yuto.png",
+    "active": "",
+    "speaker": "",
+    "text": "叫びながら机に拳を当てる。その一撃で、机は光の粒子となって消えた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "満里奈！ 私は君を傷つけたくない……だから──"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "先生は黙ってください"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈が手を振ると、鶴野の足元に黒い紐のような影が絡みついた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "次のルール。“あなたは物に触れてはいけない”"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "破壊《ブレイク》は触れた瞬間に発動する。つまり──触れなければ何もできない。完全な封じ手だった。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "先生。あなたはずっと“わたし”から目を逸らした。助けてほしかったときも、見てくれなかった"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "right",
+    "speaker": "鶴野",
+    "text": "違う……違うよ満里奈！ 私は──！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "ルール違反です"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "",
+    "speaker": "",
+    "text": "影が鶴野の胸に触れた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/tsuruno.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "三回目。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "やめろ！！！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "井口くん！！ 動くな！！！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "次の瞬間──鶴野の身体が白い光に包まれた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/tsuruno.png",
+    "right": "",
+    "active": "left",
+    "speaker": "鶴野",
+    "text": "……ごめんね、みんな"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "光が弾け、鶴野の身体は粒子となって消えた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "left",
+    "speaker": "井口",
+    "text": "………………え"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "鶴野がいた場所に、ふわりと光の残滓が舞う。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "それが井口の胸の中へ吸い込まれた。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "left",
+    "speaker": "井口",
+    "text": "──っ！？"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "胸が焼けるように熱くなる。脳の奥まで衝撃が走り、視界が白く染まった。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "井口！？ おい！！"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "井口は膝をつきながら胸を押さえた。そこにあったのは──鶴野の声。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "鶴野の声",
+    "text": "井口くん……頼んだよ……。満里奈を……救って……"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "光が胸の奥に沈み込み、静かに鼓動と同化する。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "破壊《ブレイク》が、井口に継承された。"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "井口くん。あなたもいずれ“悪い”と判断されます。逃げても無駄です。わたしの審判は、必ずあなたを見つけます"
+  },
+  {
+    "bg": "images/bg/underground_room.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "そう言って、彼女は影に溶けるように姿を消した。"
+  },
+  {
+    "bg": "images/bg/underground_tunnel.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……嘘だろ……あの人、ほんとに……"
+  },
+  {
+    "bg": "images/bg/underground_tunnel.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "井口！ 立てるか！？"
+  },
+  {
+    "bg": "images/bg/underground_tunnel.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……まだいける。逃げるぞ……！"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "三人は地下通路を駆け抜け、旧ホテル裏の排水溝から地上へ飛び出した。"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜の冷たい空気が肺に流れ込み、ようやく呼吸が戻る。"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "……井口"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "大丈夫か？"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……ああ、大丈夫じゃねぇけど……行くしかねぇだろ"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は震える拳を握った。掌に、鶴野の力が宿っている。"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "その重さと痛みが、胸の奥に刺さったままだった。"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "満里奈先生……絶対に、止める。鶴野先生のためにも……西村さんのためにも……"
+  },
+  {
+    "bg": "images/bg/sewer_exit_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜風が、三人の決意を冷たく撫でた。"
+  }
+]

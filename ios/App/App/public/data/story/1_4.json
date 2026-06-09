@@ -1,0 +1,330 @@
+[
+  {
+    "bg": "images/bg/old_hotel_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "旧西宮ホテルは、想像していた以上に巨大だった。外壁は黒ずみ、窓ガラスは半分以上割れている。まるで時間そのものから取り残されたような姿だった。"
+  },
+  {
+    "bg": "images/bg/old_hotel_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "……本当に誰も来ないんだな、ここ"
+  },
+  {
+    "bg": "images/bg/old_hotel_outside.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村は懐中電灯を取り出し、無言で入り口へ向かった。三人も後に続く。"
+  },
+  {
+    "bg": "images/bg/hotel_lobby.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "ホテルの中は、外よりも異様に静かだった。埃の匂い、湿ったカーペット、壊れた家具。廃墟のはずなのに、どこか人の気配が消えていない。"
+  },
+  {
+    "bg": "images/bg/hotel_lobby.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "鶴野は……この中に？"
+  },
+  {
+    "bg": "images/bg/hotel_lobby.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村が短く頷いた、その瞬間だった。――足音。複数人の、それもかなり重い足取りが廊下の奥から近づいてくる。"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "あれ……人か……？"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/black_suit.png",
+    "right": "images/characters/black_suit.png",
+    "active": "",
+    "speaker": "",
+    "text": "光が近づくと、黒いスーツに黒い手袋を着けた無表情の男たちの姿が見えた。"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/black_suit.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "伏せろ！"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/black_suit.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村の叫びとほぼ同時に、黒服たちがこちらへ走り出した。次の瞬間、轟音とともに壁が割れるほどの衝撃が背後で起きた。"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "うわっ!?"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "な、なに今の!?"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/black_suit.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "黒服たちは武器を持っていなかった。だが、拳で壁を叩いただけで石膏が砕け落ちる。人間の力ではなかった。"
+  },
+  {
+    "bg": "images/bg/hotel_corridor.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "逃げろ！ こっちだ！"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村に腕を掴まれ、井口たちは廊下の奥へ引っ張られる。曲がり角をいくつも走り抜け、やっと開いていた客室の一つへ飛び込んだ。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村がドアを閉め、チェーンをかける。外では黒服たちが通り過ぎる足音を響かせていた。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……なんだよ、あいつら。人間じゃなかったぞ"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "お前たちこそ……何を知ってここに来た？"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は覚悟を決め、学校での出来事からここへ辿り着くまでを順を追って説明した。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村は眉一つ動かさず静かに聞いていた。そして短く息を吐く。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……あの女が動いたか"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "あの女……満里奈のことを知ってるんですか!?"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "知っている"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "西村は鞄からペットボトルのコーラを取り出した。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "お前たちに話す前に、ひとつ見せておく"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "キャップを開けると同時に、西村はその表面に手のひらをかざした。次の瞬間、ボトルの中の黒い液体が透明に変わった。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "な……え……!?"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "じ、ジュースが……水に……？ え？ どうやったの……？"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口はただ息を呑むしかなかった。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "これが“能力”だ。満里奈も、黒服の連中も、そして……おそらく鶴野も、それを巡って動いている"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……じゃあ、学校でのあれも……？"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "そうだ。満里奈の能力は殺傷系じゃないが――あの黒服たちを扱える。学校を占拠した理由まではわからん"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "――ガンッ。ドアが震えた。黒服たちの影が隙間から見える。"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "見つかった！ 逃げるぞ！"
+  },
+  {
+    "bg": "images/bg/hotel_room_dark.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "ここ、三階だぞ!?"
+  },
+  {
+    "bg": "images/bg/hotel_room_window.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "大丈夫だ。ここからなら――死なない"
+  },
+  {
+    "bg": "images/bg/hotel_outside_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "そう言って西村は飛び降りた。井口たちは顔を見合わせる。外では黒服の怒鳴り声が迫ってきていた。"
+  },
+  {
+    "bg": "images/bg/hotel_outside_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "井口！ 行くしかない！"
+  },
+  {
+    "bg": "images/bg/hotel_outside_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……ああ！"
+  },
+  {
+    "bg": "images/bg/hotel_outside_night.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "三人はためらいながらも窓から飛び降りた。"
+  }
+]

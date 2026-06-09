@@ -1,0 +1,227 @@
+
+[
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "廃墟の出口に差し掛かった瞬間、冷たい空気がざわめいた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……ここまでか"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "闇の中から、赤い瞳が浮かび上がった。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "……やっと見つけましたよ、逃げる人たち"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈の声に続いて、尾形がゆっくりと現れる。廃墟の瓦礫が、まるで生き物のように動き出した。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……あいつら、マズい！"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈の瞳が赤く光る。瞬間、空気が張り詰めた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "新しいルールです──対象は、ヒューマン能力者"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/black_suit.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "黒服のヒューマン能力者が、満里奈の視線を受けた瞬間に反応する。身体が微かに揺れ、次の瞬間、苦悶の声を上げて崩れ落ちた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "その光が海老原の胸へ流れ込む。能力が継承された瞬間、ヒューマンの力が海老原の中で目を覚ました。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……や、やばい……力が……"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "right",
+    "speaker": "中川",
+    "text": "おい、海老原！"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "振り返ると、かつて死んだと思われていた中川が、瓦礫の間から現れた。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "生きてたのか……！"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原は中川、そして緒方と合流し、戦闘態勢に入る。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/ogata.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "俺たちはこっちだ！"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "ヒューマン能力で身体を瞬時に再生させた海老原は、中川に頷き、連携の構えを取った。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "一方、井口、明日木、宮舘は前に出る。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "満里奈！ 今度こそ止める！"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "楽しみですね……あなたたちの“審判”がどこまで通用するか"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ogata.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "尾形が廃墟の瓦礫を操作し、攻撃の準備を整える。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木はパージを展開し、宮舘はタイムキープで敵の動きを止めようとする。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "戦場は一気に混沌と化した。満里奈と尾形の連携攻撃に、主人公側は反撃のタイミングを伺いながら応戦する。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nakagawa.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原と中川は緒方と共に、瓦礫を盾に戦線を形成する。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "行くぞ！"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口が破壊《ブレイク》を振りかざす。明日木が防御を展開し、宮舘がタイムキープを発動した。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/ogata.png",
+    "active": "",
+    "speaker": "",
+    "text": "満里奈と尾形の動きが、一瞬だけ止まる。"
+  },
+  {
+    "bg": "images/bg/abandoned_building_exit.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "光と影、能力とルールがぶつかり合う廃墟の戦場。夜風が吹き抜ける中、井口たちは互いの力を信じ、反撃の第一歩を踏み出した。"
+  }
+]

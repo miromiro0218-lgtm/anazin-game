@@ -1,0 +1,459 @@
+
+[
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜の廃区画。崩れた高架下で、井口・中川・宮舘は満里奈と対峙していた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "その後ろから、よろめく足取りでひとりの少年が現れた。明日木幸平だった。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "だがその瞳は黒く濁り、感情の色がなかった。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "明日木！？ おまえ……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "……操られている。精神の“中枢”を直接。満里奈……本気で殺す気だ"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "弱い人間は……従わせるだけで十分です"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "“判断（ジャッジメント）”がそう言ってます"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "てめぇ……俺だけじゃなく、こいつまで……ッ！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "制限――『あなたたちは、明日木幸平を傷つけてはいけない』"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "周囲の地面が黒く光り、井口たちを縫い付けた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "バカかよ……！ このままじゃ明日木が……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "明日木は戦闘センス皆無だ。操られてても、俺たちの攻撃が当たれば危ない……だから“攻撃できない制限”をかけてきたんだ……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "……そして逆に、明日木には“攻撃強化”が施されてる。満里奈は……完全に殺す気だ"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "さぁ、終わりにしましょう"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木の身体が跳ねるように前へ出る。通常では考えられない速さだった。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "くっ……うああぁっ！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "制限違反です"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口の胸が締め付けられ、膝を突いた。“明日木を傷つける意志”を感じただけで制裁が入る。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "この制限……強制力が強すぎる……！ 満里奈、完全に殺しのジャッジメントだ！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘が前に出た。明日木のナイフが宮舘の首元へ迫る。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "宮舘さん！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "大丈夫だ……！ 僕が……なんとかする！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "ナイフが閃いた瞬間、宮舘の周囲の空間が歪み、時が止まった。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……！ 止めた……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "井口くん！！ 次の瞬間……明日木の攻撃が君に来る！ それを……僕が止めるから……君は満里奈を！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "はぁ！？ おまえ何言って……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "止まった時間が戻る瞬間、宮舘は井口を突き飛ばし、明日木の攻撃を受け止めた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "み、宮舘さん！！！！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "ジャッジメント。『宮舘歌美は“明日木幸平の攻撃を回避してはいけない”』今、そう宣告したところですよ"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "ぐっ……ああぁ……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "宮舘さん！！ 逃げろよ！！ なんで俺なんか庇って……！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "君が……明日木を救うんだ……。そのためには……君が生きてないと……意味がない……"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/marina.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "満里奈",
+    "text": "制限：『宮舘歌美は、ここで死ぬ』"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "やめろォォォッ！！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘の胸が光に包まれ、その身体は白い粒子となって崩れ落ちた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "井口の手には、何も残らなかった。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/yuto.png",
+    "active": "",
+    "speaker": "",
+    "text": "明日木が無表情のまま刃を構え、今度は井口へ向けた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……やめろ……幸平……"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "制限：『井口優斗は、明日木幸平を助けてはいけない』"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口の心臓が握りつぶされるような痛みを覚える。明日木のナイフが井口の喉元へ迫った。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/nakagawa.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "中川",
+    "text": "……やめろ……明日木……！ おまえは……そんな奴じゃねぇ！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "刃が井口に届きかけた、その瞬間――"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "プリッ。わずかな肉片が、中川の服のポケットから転がり落ちた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……え……？"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "影が肉片を照らす。その肉が脈動し、形を変え、骨が生え、肉が盛り上がっていく。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "……ったく……人をポケット奥底にしまうなよ……中川……"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "立ち上がったのは――海老原弥勒だった。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "……ヒューマン……！ 自己再生……死んでなかった……？"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "おまえ……俺の能力、忘れてたのか？ 死なねぇんだよ。俺は“即死以外は全部回復する”"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "海老原……！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "海老原は明日木の腕を掴んだ。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "悪いけど……幸平。お前は一回……寝てろッ！！"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "ヒューマンによる身体強化。海老原の拳が明日木の腹に入り、明日木はその場に崩れ落ちた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口、中川、海老原。三人の視線が、同時に満里奈へ向いた。"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/marina.png",
+    "active": "right",
+    "speaker": "満里奈",
+    "text": "……まだ……邪魔をするんですか……？"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "満里奈……もう逃がさねぇ。宮舘さんのためにも……明日木のためにも。絶対、止める"
+  },
+  {
+    "bg": "images/bg/night_ruined_area.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/marina.png",
+    "active": "",
+    "speaker": "",
+    "text": "夜の闇が震えた。"
+  }
+]

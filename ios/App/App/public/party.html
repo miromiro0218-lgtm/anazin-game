@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Party</title>
+<link rel="stylesheet" href="css/party.css">
+</head>
+
+<body>
+
+<div class="screen">
+
+  <div class="bg"></div>
+
+  <button id="back-button">←</button>
+
+  <div class="party-title">
+    キャラ編成
+  </div>
+
+  <!-- 左：現在の編成 -->
+  <div class="party-area">
+
+    <div class="party-slot"></div>
+
+    <div class="party-slot"></div>
+
+    <div class="party-slot"></div>
+
+  </div>
+
+  <!-- 戦力 -->
+  <div class="party-power-box">
+    総戦力：
+    <span id="party-power">0</span>
+  </div>
+
+  <!-- ボタン -->
+  <div class="party-buttons">
+
+    <button id="auto-party-button">
+      自動編成
+    </button>
+
+    <button id="save-party-button">
+      編成保存
+    </button>
+
+  </div>
+
+  <!-- 検索 -->
+  <div class="search-area">
+    <input
+      id="search-character"
+      type="text"
+      placeholder="キャラ名で検索"
+    >
+  </div>
+
+  <!-- 右：キャラ一覧 -->
+  <div id="character-list" class="character-list"></div>
+
+</div>
+
+<script src="data/charaData.js"></script>
+<script src="data/playerData.js"></script>
+<script src="js/party.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Story</title>
+
+<link rel="stylesheet" href="css/story.css">
+
+</head>
+
+<body>
+
+<div class="screen">
+
+```
+<!-- 背景 -->
+<img
+    id="bg-image"
+    class="bg-image"
+    src=""
+    alt=""
+>
+
+<!-- キャラ立ち絵 -->
+
+<img
+    id="left-character"
+    class="character left"
+    src=""
+    alt=""
+>
+
+<img
+    id="right-character"
+    class="character right"
+    src=""
+    alt=""
+>
+
+<!-- 上UI -->
+
+<div class="top-buttons">
+
+    <button id="log-button">
+        LOG
+    </button>
+
+    <button id="auto-button">
+        AUTO
+    </button>
+
+    <button id="skip-button">
+        SKIP
+    </button>
+
+    <button id="hide-button">
+        HIDE
+    </button>
+
+</div>
+
+<!-- テキストボックス -->
+
+<div id="message-box">
+
+    <div id="speaker-name">
+        名前
+    </div>
+
+    <div id="message-text">
+        テキスト
+    </div>
+
+    <div class="next-mark">
+        ▼
+    </div>
+
+</div>
+
+<!-- ログ画面 -->
+
+<div
+    id="log-modal"
+    class="hidden"
+>
+
+    <div class="log-window">
+
+        <div class="log-title">
+            ストーリーログ
+        </div>
+
+        <div id="log-list">
+        </div>
+
+        <button id="close-log">
+            閉じる
+        </button>
+
+    </div>
+
+</div>
+```
+
+</div>
+
+<script src="data/playerData.js"></script>
+
+<script src="js/story.js"></script>
+
+</body>
+</html>

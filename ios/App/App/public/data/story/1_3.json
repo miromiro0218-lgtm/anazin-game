@@ -1,0 +1,258 @@
+[
+  {
+    "bg": "images/bg/residential_street.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口たちは、住宅街の奥まった場所にある鶴野先生の家へ向かった。普段は生徒が行くような場所ではないが、住所は職員名簿から覚えていた。"
+  },
+  {
+    "bg": "images/bg/tsuruno_house.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "家は二階建ての落ち着いた造りだった。"
+  },
+  {
+    "bg": "images/bg/tsuruno_house.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "しかし、玄関の前まで来た瞬間、三人は言葉を失う。――ドアが、わずかに開いたままになっていた。"
+  },
+  {
+    "bg": "images/bg/tsuruno_house.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "……留守？"
+  },
+  {
+    "bg": "images/bg/tsuruno_house.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "いや……鍵、壊されてない？"
+  },
+  {
+    "bg": "images/bg/tsuruno_house.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "すみません、鶴野先生……？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "",
+    "speaker": "",
+    "text": "室内は整っていたが、明らかに“生活の途中”で放り出されたような様子だった。リビングには、鶴野先生の日直記録が置かれている。"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "",
+    "speaker": "",
+    "text": "カップには固まったコーヒーの跡が残り、ソファには開きっぱなしの教材。"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "",
+    "speaker": "",
+    "text": "だが――そのすべてが、昨日から時間が止まったように動いていなかった。"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "right",
+    "speaker": "海老原",
+    "text": "……昨日までは普通に学校に来てたんだよな？ なんで家の様子がこんな……"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……地図？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/ebihara.png",
+    "active": "",
+    "speaker": "",
+    "text": "そこには西宮市の古い地図が広げられており、赤ペンで『旧西宮ホテル』と丸がつけられていた。"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "right",
+    "speaker": "明日木",
+    "text": "旧西宮ホテル……あそこ、もう十年以上前に閉まった廃墟じゃなかったっけ"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "なんで鶴野先生が……"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kohei.png",
+    "active": "",
+    "speaker": "",
+    "text": "その時――玄関の方でガタッ、と音がした。"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "三人が振り向くと、入口に立っていたのは作業服を着た中年の男性だった。四十代半ばほどの、がっしりした体格の男だ。"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "？？？",
+    "text": "……君たち、誰だ？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "？？？",
+    "text": "……その制服、もしかして鶴野を探してるのか？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "え、えっと……あなたは？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "西村だ。市で設備関係の仕事をしててな。あいつとは……まあ、知り合いだよ"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/kohei.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "明日木",
+    "text": "鶴野先生がどこにいるか、知ってるんですか？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……旧西宮ホテルだ。昨日、あいつは一人であそこに向かった"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "どうして……？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "理由までは知らない。だが、あそこはもう危険だ。昼間でも人が寄りつかない。本来なら子どもを連れて行く場所じゃない"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "海老原",
+    "text": "じゃあ、帰ろうぜ!? 危ないって言われてんだし――"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "――案内してやるよ"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/ebihara.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "こんな時間に子ども三人だけで行かせるなんてできないからな"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "それに……鶴野を探してるなら、なおさらだ。お前たちだけだと、たどり着く前に迷う"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "……あの場所で、何が起きてるかは俺も知らない。けど、今の学校の様子を見れば、放っておけないんだろ？"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……お願いします。案内してください"
+  },
+  {
+    "bg": "images/bg/tsuruno_livingroom.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "right",
+    "speaker": "西村",
+    "text": "ついてこい。旧西宮ホテルまでは、車で行った方が早い"
+  },
+  {
+    "bg": "images/bg/road_to_hotel.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/nishimura.png",
+    "active": "",
+    "speaker": "",
+    "text": "こうして三人は、西宮市の端にひっそりと残る“廃墟”へ向かうことになった。"
+  }
+]

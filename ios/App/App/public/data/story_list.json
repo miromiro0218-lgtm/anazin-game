@@ -1,0 +1,4 @@
+[
+  { "id": "1_1", "title": "1章 1話", "bg": "bg1.jpg", "locked": false },
+  { "id": "1_2", "title": "1章 2話", "bg": "bg2.jpg", "locked": true }
+]

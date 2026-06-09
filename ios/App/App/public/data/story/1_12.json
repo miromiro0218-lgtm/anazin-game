@@ -1,0 +1,459 @@
+
+[
+  {
+    "bg": "images/bg/riverside_evening.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "廃墟を出てから数日。井口と宮舘は、宇佐美の残した痕跡を辿りながら、人気のなくなった河川敷に差し掛かっていた。"
+  },
+  {
+    "bg": "images/bg/riverside_evening.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "冷たい風が吹き抜ける。夏の気配がまだ残るのに、その場だけ空気がひどく乾いていた。"
+  },
+  {
+    "bg": "images/bg/riverside_evening.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "……どうにも嫌な気配がしますね"
+  },
+  {
+    "bg": "images/bg/riverside_evening.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘が足を止めた。井口も、“何かが消えていくような”妙な不快感を覚えていた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "？？？",
+    "text": "おーいおーい、そこで止まってくれんかねぇ"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "少し離れた高架下から、飄々とした声が響いた。出てきたのは二人の男だった。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "ひとりは目つきが鋭く、白い手袋をした青年。もうひとりはチャラついた雰囲気で、落ち着きなく周囲を見ている。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "俺が前田。スティールハントの能力者"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "で、俺が金田っす〜。テレポートっす〜"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "……能力を“盗む”能力者。危険だ"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "まあ落ち着けよ。悪ぃけど――おまえらの“能力”、いただいていく"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田の瞳が黒く揺らぎ、井口の胸がざわついた。何かを抜き取られるような感覚が走る。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "次の瞬間、井口の腰に刺していたナイフが勝手に飛び、前田の手の中に収まっていた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "うお！？ 俺のナイフ！？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "これがスティールハント。見えたものは全部“俺のもの”だ"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "宮舘さん！ 一気に距離詰めます！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "了解しました！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "はいワープ！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "二人が踏み出した瞬間、金田がふっと消えた。すぐ後ろから声が響く。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "後ろおじゃましまーす"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口が振り返るより早く、蹴りが飛んできた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "チッ！！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "テレポートで撹乱、前田は能力を盗む……かなり相性悪いですね"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "でも逃げられねぇ！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "無駄だって"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田が軽く指を弾いた。宮舘の腰ポーチが破れ、中から小型の研究器具がすべて前田の手元に吸い寄せられた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "くっ……！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "宮舘さん、目を閉じろ！！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "right",
+    "speaker": "宮舘",
+    "text": "は！？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "見えてるから盗まれるんだ！ だったら俺らから“奪えるものを見せない”！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "面白えじゃねえか……でも甘い！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田が瞬間移動し、井口の死角へ入る。井口はその瞬間、残した片目で金田を捉えた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "見えた。――奪う"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "井口の足元が急に軽くなる。履いていた靴が奪われていた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "",
+    "active": "left",
+    "speaker": "井口",
+    "text": "ぐっ！？ 裸足！？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "はっはー！ なんもかんも俺が奪うって！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "……“見えていない位置”からなら、奪えないんですよね？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "前田が振り向くより早く、宮舘が背面から組み伏せた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "くそ……後ろは見えねぇ……！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "宮舘さん、押さえてて！！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/maeda.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口が拳を構え、前田の腹部に渾身の一撃を叩き込む。前田が崩れ落ちた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/kaneda.png",
+    "right": "images/characters/yuto.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田が慌てて近づくが、その腕を井口が掴んだ。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "てめえだけは逃がさねえ！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "right",
+    "speaker": "金田",
+    "text": "うわっ！？ やだやだやだっす！！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "金田は何度も瞬間移動を試みたが、井口は腕を離さなかった。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……悪い。戦う気があるなら、倒すしかねぇ！"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/kaneda.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口の拳が金田の腹に入り、金田はそのまま崩れ落ちた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/miyadate.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "宮舘",
+    "text": "……殺してませんよね？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "ギリギリだと思うけど、生きてるはず……いや、生かす"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "井口は前田の胸元から転がり落ちたノートを拾った。そこには、ぎっしりと文字が書き込まれていた。"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "……これ、なんだ？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "……“あの女”に……奪われたんだよ……俺たちの仲間……満里奈に……"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/maeda.png",
+    "active": "left",
+    "speaker": "井口",
+    "text": "満里奈……？"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/maeda.png",
+    "right": "images/characters/yuto.png",
+    "active": "left",
+    "speaker": "前田",
+    "text": "そのノート……アイツの“過去”だ……俺が盗んだ……消すつもりで……"
+  },
+  {
+    "bg": "images/bg/riverside_overpass.jpg",
+    "left": "images/characters/yuto.png",
+    "right": "images/characters/miyadate.png",
+    "active": "",
+    "speaker": "",
+    "text": "宮舘がノートを開く。その本は破られていて、白紙のページの前に最後の書き込みだけが残っていた。"
+  },
+  {
+    "bg": "images/bg/notebook_closeup.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "〈8月2日、金曜日、怖い、怖い、自分がなくなりそうで怖い、でも妹を治すため、しょうがない、しょうがない、落ち着いてきた、名前が呼ばれる、じゃあね、私〉"
+  },
+  {
+    "bg": "images/bg/notebook_closeup.jpg",
+    "left": "",
+    "right": "",
+    "active": "",
+    "speaker": "",
+    "text": "謎の文章が、ぐちゃぐちゃな字で走るように記されていた。"
+  }
+]

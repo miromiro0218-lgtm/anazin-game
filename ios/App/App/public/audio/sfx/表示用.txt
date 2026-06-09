@@ -1,0 +1,425 @@
+const CHARA_DATA = [
+  {
+    id: "chara_001",
+    name: "井口優斗",
+    level: 1,
+    rarity: "R",
+    element: "red",
+    attribute: "red",
+    role: "純火力アタッカー",
+    image: "images/characters/yuto.png",
+
+    stats: { hp: 1100, atk: 350, def: 180, spd: 220, sp: 120, eva: 8 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" },
+      { name: "構え", type: "buff", effect: "atk_up", value: 0.5, target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "絶好調",
+        trigger: "hp_over",
+        condition_value: 0.75,
+        effect: "atk_up",
+        value: 1.0,
+        description: "HP75%以上の時、ATKが100%上昇"
+      }
+    ]
+  },
+
+  {
+    id: "chara_002",
+    name: "明日木幸平",
+    level: 1,
+    rarity: "R",
+    element: "blue",
+    attribute: "blue",
+    role: "低HP火力型",
+    image: "images/characters/kohei.png",
+
+    stats: { hp: 1000, atk: 150, def: 70, spd: 220, sp: 120, eva: 0.1 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" },
+      { name: "構え", type: "buff", effect: "atk_up", value: 0.5, target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "渾身",
+        trigger: "hp_under",
+        condition_value: 0.25,
+        effect: "atk_up",
+        value: 0.5,
+        description: "HP25%以下の時、ATKが50%上昇"
+      }
+    ]
+  },
+
+  {
+    id: "chara_003",
+    name: "海老原弥勒",
+    level: 1,
+    rarity: "R",
+    element: "green",
+    attribute: "green",
+    role: "防御支援",
+    image: "images/characters/ebihara.png",
+
+    stats: { hp: 1400, atk: 100, def: 100, spd: 200, sp: 120, eva: 0.1 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" },
+      { name: "構え", type: "buff", effect: "def_up", value: 0.5, target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "かばう",
+        trigger: "hp_over",
+        condition_value: 0.5,
+        effect: "party_def_up",
+        value: 0.5,
+        description: "HP50%以上の時、味方全体のDEFが50%上昇"
+      }
+    ]
+  },
+
+  {
+    id: "chara_004",
+    name: "金田（テレポート）",
+    level: 1,
+    rarity: "SR",
+    element: "red",
+    attribute: "red",
+    role: "回避タンク",
+    image: "images/characters/kaneda_teleport.png",
+
+    stats: { hp: 1600, atk: 125, def: 200, spd: 250, sp: 175, eva: 1 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" },
+      { name: "テレポート", type: "buff", effect: "eva_up", value: 60, turn: 2, target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "瞬間移動",
+        trigger: "battle_start",
+        effect: "eva_up",
+        value: 60,
+        turn: 2,
+        description: "戦闘開始から2ターン、EVAが大幅上昇"
+      },
+      {
+        name: "残像回避",
+        trigger: "dodge_success",
+        effect: "spd_up",
+        value: 0.25,
+        turn: 1,
+        description: "回避成功時、次のターンSPDが上昇"
+      }
+    ]
+  },
+
+  {
+    id: "chara_005",
+    name: "前田（スティールハント）",
+    level: 1,
+    rarity: "SR",
+    element: "green",
+    attribute: "green",
+    role: "敵弱体化",
+    image: "images/characters/maeda_stealhunt.png",
+
+    stats: { hp: 1750, atk: 100, def: 100, spd: 250, sp: 125, eva: 1 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" },
+      { name: "強奪", type: "debuff", effect: "atk_down", value: 0.25, target: "enemy_all" }
+    ],
+
+    abilities: [
+      {
+        name: "強奪（スティールハント）",
+        trigger: "hp_over",
+        condition_value: 0.5,
+        effect: "enemy_all_atk_down",
+        value: 0.25,
+        description: "HP50%以上の時、敵全体のATKを25%下げる"
+      },
+      {
+        name: "盗み癖",
+        trigger: "attack",
+        effect: "steal_buff",
+        chance: 0.15,
+        description: "攻撃時、低確率で敵のバフを奪う"
+      }
+    ]
+  },
+
+  {
+    id: "chara_006",
+    name: "明日木幸平（パージ）",
+    level: 1,
+    rarity: "SSR",
+    element: "blue",
+    attribute: "blue",
+    role: "状態異常メタ",
+    image: "images/characters/kohei_purge.png",
+
+    stats: { hp: 2000, atk: 200, def: 150, spd: 175, sp: 325, eva: 7 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "浄化", type: "cleanse", sp_cost: 60, target: "ally_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "浄化（パージ）",
+        trigger: "battle_start",
+        effect: "status_immunity",
+        turn: 3,
+        description: "バトル開始から3ターン状態異常無効"
+      },
+      {
+        name: "自己浄化",
+        trigger: "turn_start",
+        effect: "cleanse_self",
+        description: "毎ターン開始時、自身の状態異常を解除"
+      },
+      {
+        name: "無効領域",
+        trigger: "passive",
+        effect: "party_status_resist_up",
+        value: 0.3,
+        description: "味方全体の状態異常耐性を上げる"
+      }
+    ]
+  },
+
+  {
+    id: "chara_007",
+    name: "井口優斗（ブレイク）",
+    level: 1,
+    rarity: "SSR",
+    element: "red",
+    attribute: "red",
+    role: "超アタッカー",
+    image: "images/characters/yuto_break.png",
+
+    stats: { hp: 1500, atk: 300, def: 100, spd: 285, sp: 340, eva: 6 },
+
+    commands: [
+      { name: "強攻撃", type: "attack", power: 1.8, sp_cost: 50, target: "enemy_single" },
+      { name: "連撃", type: "multi_attack", power: 0.7, hit: 3, sp_cost: 70, target: "enemy_single" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "ブレイク",
+        trigger: "attack",
+        effect: "extra_damage",
+        chance: 0.2,
+        value: 0.5,
+        description: "攻撃時、低確率で追加ダメージ"
+      },
+      {
+        name: "破壊衝動",
+        trigger: "enemy_defeat",
+        effect: "atk_up",
+        value: 0.3,
+        description: "敵撃破時、ATKが上昇"
+      },
+      {
+        name: "限界突破",
+        trigger: "hp_under",
+        condition_value: 0.3,
+        effect: "atk_up",
+        value: 1.0,
+        description: "HP低下時、火力が大幅上昇"
+      }
+    ]
+  },
+
+  {
+    id: "chara_008",
+    name: "海老原弥勒（ヒューマン）",
+    level: 1,
+    rarity: "SSR",
+    element: "green",
+    attribute: "green",
+    role: "不死タンク",
+    image: "images/characters/ebihara_human.png",
+
+    stats: { hp: 2500, atk: 50, def: 300, spd: 250, sp: 300, eva: 4 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "回復", type: "heal", power: 0.3, sp_cost: 70, target: "ally_all" },
+      { name: "挑発", type: "taunt", turn: 2, target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "ヒューマン",
+        trigger: "hp_under",
+        condition_value: 0.5,
+        effect: "regen",
+        value: 0.5,
+        description: "HP50%以下の時、毎ターンHPを50%回復"
+      },
+      {
+        name: "不死性",
+        trigger: "fatal_damage",
+        effect: "survive",
+        hp_remain: 1,
+        limit: 1,
+        description: "致死ダメージを一度だけHP1で耐える"
+      },
+      {
+        name: "挑発本能",
+        trigger: "battle_start",
+        effect: "taunt",
+        turn: 1,
+        description: "戦闘開始時、敵の攻撃を引きつける"
+      }
+    ]
+  },
+
+  {
+    id: "chara_009",
+    name: "尾形宗介",
+    level: 1,
+    rarity: "SSR",
+    element: "red",
+    attribute: "red",
+    role: "範囲アタッカー",
+    image: "images/characters/ogata.png",
+
+    stats: { hp: 1500, atk: 200, def: 200, spd: 280, sp: 325, eva: 5 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 0.8, target: "enemy_all" },
+      { name: "金属操作", type: "skill_attack", power: 1.4, sp_cost: 80, target: "enemy_all" },
+      { name: "防御", type: "guard", effect: "damage_cut", target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "メタルドミネーション",
+        trigger: "skill_attack_hp_under",
+        condition_value: 0.5,
+        effect: "shock",
+        chance: 0.2,
+        description: "HP50%以下で攻撃スキルを使うと、20%の確率で感電を与える"
+      },
+      {
+        name: "範囲支配",
+        trigger: "passive",
+        effect: "normal_attack_all",
+        description: "通常攻撃が全体攻撃になる"
+      },
+      {
+        name: "鉄壁操作",
+        trigger: "guard",
+        effect: "def_up_damage_cut",
+        value: 0.3,
+        description: "防御時、DEF上昇と被ダメージ軽減を得る"
+      }
+    ]
+  },
+
+  {
+    id: "chara_010",
+    name: "佐藤満里奈（コピー）",
+    level: 1,
+    rarity: "SSR",
+    element: "blue",
+    attribute: "blue",
+    role: "万能・ラスボス",
+    image: "images/characters/marina_copy.png",
+
+    stats: { hp: 1700, atk: 250, def: 200, spd: 225, sp: 320, eva: 6 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "コピー", type: "copy_last_received_attack", sp_cost: 80, target: "enemy_single" },
+      { name: "ジャッジメント", type: "skill_attack", power: 1.3, sp_cost: 90, effect: "random_status", target: "enemy_single" }
+    ],
+
+    abilities: [
+      {
+        name: "模倣（コピー）",
+        trigger: "receive_attack",
+        effect: "save_received_attack",
+        description: "最初に受けた攻撃をコピーし、コマンドで再使用できる"
+      },
+      {
+        name: "裁判（ジャッジメント）",
+        trigger: "skill_hit",
+        effect: "random_status",
+        description: "能力攻撃命中時、ランダムで特殊状態異常を付与"
+      },
+      {
+        name: "ダメージ転移",
+        trigger: "damage_taken",
+        effect: "damage_transfer",
+        chance: 0.15,
+        description: "受けたダメージを低確率で他の対象へ移す"
+      }
+    ]
+  },
+
+  {
+    id: "chara_011",
+    name: "宮館歌美",
+    level: 1,
+    rarity: "SSR",
+    element: "red",
+    attribute: "red",
+    role: "妨害・制御",
+    image: "images/characters/miyadate.png",
+
+    stats: { hp: 1550, atk: 270, def: 300, spd: 175, sp: 355, eva: 3 },
+
+    commands: [
+      { name: "攻撃", type: "attack", power: 1.0, target: "enemy_single" },
+      { name: "時間停止", type: "status_attack", sp_cost: 100, effect: "time_stop", chance: 0.35, target: "enemy_single" },
+      { name: "分析", type: "buff", effect: "skill_power_up", target: "self" }
+    ],
+
+    abilities: [
+      {
+        name: "タイムキープ",
+        trigger: "action_hp_under",
+        condition_value: 0.25,
+        effect: "time_stop",
+        chance: 0.1,
+        description: "HP25%以下の時に行動すると、10%の確率でランダムな敵を時間停止にする"
+      },
+      {
+        name: "時間停止",
+        trigger: "status_success",
+        effect: "skip_turn",
+        description: "時間停止状態の敵は行動できない"
+      },
+      {
+        name: "研究者",
+        trigger: "turn_start",
+        effect: "skill_power_up",
+        value: 0.05,
+        description: "戦闘中、ターン経過ごとに能力が徐々に強化される"
+      }
+    ]
+  }
+];
